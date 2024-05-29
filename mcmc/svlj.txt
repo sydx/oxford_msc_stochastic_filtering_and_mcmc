@@ -1,0 +1,38 @@
+model {
+    # Priors
+    mu ~ dnorm(0, 0.04)
+    beta <- exp(.5 * mu)
+    phistar ~ dbeta(20, 1.5)
+    phi <- 2 * phistar - 1
+    recipsigmav2 ~ dgamma(2.5, 0.025)
+    sigmav <- sqrt(1. / recipsigmav2)
+    rho ~ dunif(-1., 1.)
+    pjump ~ dbeta(0.05, 4)
+    recipsigmajump2 ~ dgamma(10, 90)
+    sigmajump <- sqrt(1/recipsigmajump2)
+
+    # Initial distribution of the state
+    x0 ~ dnorm(mu, recipsigmav2)
+    xmean[1] <- mu + phi * (x0 - mu)
+    x[1] ~ dnorm(xmean[1], recipsigmav2)I(-5,5)
+
+    # Transition density
+    for (t in 2:n) {
+        xmean[t] <- mu + phi * (x[t-1] - mu)
+        x[t] ~ dnorm(xmean[t], recipsigmav2)I(-4,4)
+    }
+
+    # Likelihood
+    ymean[1] <- rho/sigmav * exp(0.5 * x[1]) * (x[1] - mu - phi * (x0 - mu))
+    jumpflag[1] ~ dbin(pjump, 1) 
+    recipyvar[1] <- 1 / ( exp(x[1]) * (1-rho*rho) + jumpflag[1]*sigmajump*sigmajump )
+    y[1] ~ dnorm(ymean[1], recipyvar[1])
+    for (t in 2:n) {
+        ymean[t] <- rho/sigmav * exp(0.5 * x[t]) * (x[t] - mu - phi * (x[t-1] - mu))
+        jumpflag[t] ~ dbin(pjump, 1)
+        recipyvar[t] <- 1 / ( exp(x[t]) * (1-rho*rho) + jumpflag[t]*sigmajump*sigmajump )
+        y[t] ~ dnorm(ymean[t], recipyvar[t])
+    }
+}
+
+list(mu=0, phistar=0.975, recipsigmav2=50, rho=0, pjump=0.01, recipsigmajump2=0.1)

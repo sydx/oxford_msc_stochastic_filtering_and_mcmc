@@ -1,0 +1,5 @@
+# Nothing to do
+display('log')
+check('C:/Users/Paul Bilokon/Documents/dev/alexandria/bilokon-msc/dissertation/code/mcmc/svl.txt')
+data('C:/Users/Paul Bilokon/Documents/dev/alexandria/bilokon-msc/dissertation/code/datasets/dataset-14/256/dataset-14-256-1_n.txt')
+data('C:/Users/Paul Bilokon/Documents/dev/alexandria/bilokon-msc/dissertation/code/datasets/dataset-14/256/dataset-14-256-1_y.txt')

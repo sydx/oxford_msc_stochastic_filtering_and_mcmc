@@ -1,0 +1,37 @@
+model {
+    # Priors
+    mu ~ dnorm(0., 0.04)
+    beta <- exp(.5 * mu)
+    phistar ~ dbeta(20., 1.5)
+    phi <- 2. * phistar - 1.
+    recsigmav2 ~ dgamma(2.5, 0.025)
+    sigmav <- sqrt(1. / recsigmav2)
+    rho ~ dunif(-1., 1.)
+    oneminusphi <- 1. - phi
+    alpha <- oneminusphi * mu
+
+    # Initial distribution of the state
+    x0 ~ dnorm(mu, recsigmav2)
+
+    # We assume that dt[0] == dt[1] as a corner case
+    xmean[1] <- dt[1] * alpha + (1. - dt[1] * oneminusphi) * x0
+    recxvar[1] <- recsigmav2 / dt[1]
+    x[1] ~ dnorm(xmean[1], recxvar[1])I(-5,5)
+
+    # Transition density
+    for (t in 1:n) {
+        xmean[t+1] <- dt[t] * alpha + (1. - dt[t] * oneminusphi) * x[t]
+        recxvar[t+1] <- recsigmav2 / dt[t]
+        x[t+1] ~ dnorm(xmean[t+1], recxvar[t+1])I(-4,4)
+    }
+
+    # Likelihood
+    for (t in 1:n) {
+        ymean[t] <- sqrt(dt[t]) * exp(0.5 * x[t]) * rho / (sqrt(dt[t]) * sigmav) * (x[t+1] - dt[t] * alpha - (1. - dt[t] * oneminusphi) * x[t])
+        recyvar[t] <- 1. / ( dt[t] * exp(x[t]) * (1. - rho*rho) )
+        y[t] ~ dnorm(ymean[t], recyvar[t])
+    }
+}
+
+# Initial values
+list(mu=0, phistar=0.98, recsigmav2=40, rho=-0.4)

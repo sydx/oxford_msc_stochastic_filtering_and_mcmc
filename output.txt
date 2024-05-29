@@ -1,0 +1,1274 @@
+Setting random seed...
+Generating SV model...
+parameters.persistence 0.975
+parameters Parameters(drift=0.25, persistence=0.975, voloflogvol=0.158113883008, cor=-0.8, jumpintensity=0.01, jumpvol=3.16227766017)
+parameters.persistence 0.975
+parameters Parameters(drift=0.25, persistence=0.975, voloflogvol=0.158113883008, cor=-0.8, jumpintensity=0.01, jumpvol=3.16227766017)
+iterating through times...
+parameters Parameters(drift=0.25, persistence=0.975, voloflogvol=0.158113883008, cor=-0.8, jumpintensity=0.01, jumpvol=3.16227766017)
+loglikelihood -1715.96262048
+1715.96262048
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220E-16
+ N =  6    M =  10
+
+At X0         0 variables are exactly at the bounds
+parameters.persistence 0.5
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+iterating through times...
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+loglikelihood -1854.77882002
+parameters.persistence 0.5
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+iterating through times...
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+loglikelihood -1851.13899008
+parameters.persistence 0.5
+parameters Parameters(drift=1e-08, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+iterating through times...
+parameters Parameters(drift=1e-08, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+loglikelihood -1853.25877847
+parameters.persistence 0.50000001
+parameters Parameters(drift=0.0, persistence=0.50000001, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+iterating through times...
+parameters Parameters(drift=0.0, persistence=0.50000001, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+loglikelihood -1854.28024744
+parameters.persistence 0.5
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.50000001, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+iterating through times...
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.50000001, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+loglikelihood -1854.74916745
+parameters.persistence 0.5
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.49999999, jumpintensity=0.05, jumpvol=3.0)
+iterating through times...
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.49999999, jumpintensity=0.05, jumpvol=3.0)
+loglikelihood -1851.73881096
+parameters.persistence 0.5
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05000001, jumpvol=3.0)
+iterating through times...
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05000001, jumpvol=3.0)
+loglikelihood -1849.18273601
+parameters.persistence 0.5
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.00000001)
+iterating through times...
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.00000001)
+loglikelihood -1847.04683553
+
+At iterate    0    f=  1.85478E+03    |proj g|=  7.00000E+00
+parameters.persistence 0.0
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=1.0, jumpvol=10.0)
+iterating through times...
+/Users/paul/Documents/dev/Masters/Dissertation/Code/filtering.py:71: RuntimeWarning: invalid value encountered in divide
+  self.__weights = self.__unnormalisedweights / weightsum
+/Users/paul/Documents/dev/Masters/Dissertation/Code/filtering.py:73: RuntimeWarning: divide by zero encountered in log
+  self.__loglikelihood += np.log(np.sum(self.__unnormalisedweights) / self.__particlecount)
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=1.0, jumpvol=10.0)
+loglikelihood -inf
+parameters.persistence 0.0
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=1.0, jumpvol=10.0)
+iterating through times...
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=1.0, jumpvol=10.0)
+loglikelihood -inf
+parameters.persistence 0.0
+parameters Parameters(drift=-0.49999999, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=1.0, jumpvol=10.0)
+iterating through times...
+parameters Parameters(drift=-0.49999999, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=1.0, jumpvol=10.0)
+loglikelihood -inf
+/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy/optimize/optimize.py:610: RuntimeWarning: invalid value encountered in double_scalars
+  grad[k] = (f(*((xk + d,) + args)) - f0) / d[k]
+parameters.persistence 1e-08
+parameters Parameters(drift=-0.5, persistence=1e-08, voloflogvol=0.01, cor=-1.0, jumpintensity=1.0, jumpvol=10.0)
+iterating through times...
+parameters Parameters(drift=-0.5, persistence=1e-08, voloflogvol=0.01, cor=-1.0, jumpintensity=1.0, jumpvol=10.0)
+loglikelihood -inf
+parameters.persistence 0.0
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01000001, cor=-1.0, jumpintensity=1.0, jumpvol=10.0)
+iterating through times...
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01000001, cor=-1.0, jumpintensity=1.0, jumpvol=10.0)
+loglikelihood -inf
+parameters.persistence 0.0
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-0.99999999, jumpintensity=1.0, jumpvol=10.0)
+iterating through times...
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-0.99999999, jumpintensity=1.0, jumpvol=10.0)
+loglikelihood -inf
+parameters.persistence 0.0
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=1.00000001, jumpvol=10.0)
+iterating through times...
+/Users/paul/Documents/dev/Masters/Dissertation/Code/filtering.py:73: RuntimeWarning: invalid value encountered in log
+  self.__loglikelihood += np.log(np.sum(self.__unnormalisedweights) / self.__particlecount)
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=1.00000001, jumpvol=10.0)
+loglikelihood nan
+parameters.persistence 0.0
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=1.0, jumpvol=10.00000001)
+iterating through times...
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=1.0, jumpvol=10.00000001)
+loglikelihood -inf
+parameters.persistence 0.5
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+iterating through times...
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+loglikelihood -1851.35285278
+parameters.persistence 0.5
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+iterating through times...
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+loglikelihood -1843.14224045
+parameters.persistence 0.5
+parameters Parameters(drift=1e-08, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+iterating through times...
+parameters Parameters(drift=1e-08, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+loglikelihood -1858.77905087
+parameters.persistence 0.50000001
+parameters Parameters(drift=0.0, persistence=0.50000001, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+iterating through times...
+parameters Parameters(drift=0.0, persistence=0.50000001, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+loglikelihood -1858.79933206
+parameters.persistence 0.5
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.50000001, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+iterating through times...
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.50000001, cor=-0.5, jumpintensity=0.05, jumpvol=3.0)
+loglikelihood -1852.97980047
+parameters.persistence 0.5
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.49999999, jumpintensity=0.05, jumpvol=3.0)
+iterating through times...
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.49999999, jumpintensity=0.05, jumpvol=3.0)
+loglikelihood -1855.40154012
+parameters.persistence 0.5
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05000001, jumpvol=3.0)
+iterating through times...
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05000001, jumpvol=3.0)
+loglikelihood -1851.35646546
+parameters.persistence 0.5
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.00000001)
+iterating through times...
+parameters Parameters(drift=0.0, persistence=0.5, voloflogvol=0.5, cor=-0.5, jumpintensity=0.05, jumpvol=3.00000001)
+loglikelihood -1858.98549648
+
+At iterate    1    f=  1.85135E+03    |proj g|=  2.99000E+00
+  ys= 0.000E+00  -gs= 0.000E+00 BFGS update SKIPPED
+parameters.persistence 0.0
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=0.0, jumpvol=0.01)
+iterating through times...
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=0.0, jumpvol=0.01)
+loglikelihood -2690.94413355
+parameters.persistence 0.0
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=0.0, jumpvol=0.01)
+iterating through times...
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=0.0, jumpvol=0.01)
+loglikelihood -2690.944216
+parameters.persistence 0.0
+parameters Parameters(drift=-0.49999999, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=0.0, jumpvol=0.01)
+iterating through times...
+parameters Parameters(drift=-0.49999999, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=0.0, jumpvol=0.01)
+loglikelihood -2690.94399528
+parameters.persistence 1e-08
+parameters Parameters(drift=-0.5, persistence=1e-08, voloflogvol=0.01, cor=-1.0, jumpintensity=0.0, jumpvol=0.01)
+iterating through times...
+parameters Parameters(drift=-0.5, persistence=1e-08, voloflogvol=0.01, cor=-1.0, jumpintensity=0.0, jumpvol=0.01)
+loglikelihood -2690.94402927
+parameters.persistence 0.0
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01000001, cor=-1.0, jumpintensity=0.0, jumpvol=0.01)
+iterating through times...
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01000001, cor=-1.0, jumpintensity=0.0, jumpvol=0.01)
+loglikelihood -2690.94374099
+parameters.persistence 0.0
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-0.99999999, jumpintensity=0.0, jumpvol=0.01)
+iterating through times...
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-0.99999999, jumpintensity=0.0, jumpvol=0.01)
+loglikelihood -2690.94398917
+parameters.persistence 0.0
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=1e-08, jumpvol=0.01)
+iterating through times...
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=1e-08, jumpvol=0.01)
+loglikelihood -2545.32235583
+parameters.persistence 0.0
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=0.0, jumpvol=0.01000001)
+iterating through times...
+parameters Parameters(drift=-0.5, persistence=0.0, voloflogvol=0.01, cor=-1.0, jumpintensity=0.0, jumpvol=0.01000001)
+loglikelihood -2690.94386571
+parameters.persistence 0.324985342922
+parameters Parameters(drift=-0.175014657078, persistence=0.324985342922, voloflogvol=0.328485636064, cor=-0.675014657078, jumpintensity=0.0324985342922, jumpvol=1.95341235067)
+iterating through times...
+parameters Parameters(drift=-0.175014657078, persistence=0.324985342922, voloflogvol=0.328485636064, cor=-0.675014657078, jumpintensity=0.0324985342922, jumpvol=1.95341235067)
+loglikelihood -2033.12025452
+parameters.persistence 0.324985342922
+parameters Parameters(drift=-0.175014657078, persistence=0.324985342922, voloflogvol=0.328485636064, cor=-0.675014657078, jumpintensity=0.0324985342922, jumpvol=1.95341235067)
+iterating through times...
+parameters Parameters(drift=-0.175014657078, persistence=0.324985342922, voloflogvol=0.328485636064, cor=-0.675014657078, jumpintensity=0.0324985342922, jumpvol=1.95341235067)
+loglikelihood -2038.75213487
+parameters.persistence 0.324985342922
+parameters Parameters(drift=-0.175014647078, persistence=0.324985342922, voloflogvol=0.328485636064, cor=-0.675014657078, jumpintensity=0.0324985342922, jumpvol=1.95341235067)
+iterating through times...
+parameters Parameters(drift=-0.175014647078, persistence=0.324985342922, voloflogvol=0.328485636064, cor=-0.675014657078, jumpintensity=0.0324985342922, jumpvol=1.95341235067)
+loglikelihood -2022.45283277
+parameters.persistence 0.324985352922
+parameters Parameters(drift=-0.175014657078, persistence=0.324985352922, voloflogvol=0.328485636064, cor=-0.675014657078, jumpintensity=0.0324985342922, jumpvol=1.95341235067)
+iterating through times...
+parameters Parameters(drift=-0.175014657078, persistence=0.324985352922, voloflogvol=0.328485636064, cor=-0.675014657078, jumpintensity=0.0324985342922, jumpvol=1.95341235067)
+loglikelihood -2034.6500504
+parameters.persistence 0.324985342922
+parameters Parameters(drift=-0.175014657078, persistence=0.324985342922, voloflogvol=0.328485646064, cor=-0.675014657078, jumpintensity=0.0324985342922, jumpvol=1.95341235067)
+iterating through times...
+parameters Parameters(drift=-0.175014657078, persistence=0.324985342922, voloflogvol=0.328485646064, cor=-0.675014657078, jumpintensity=0.0324985342922, jumpvol=1.95341235067)
+loglikelihood -2034.51347239
+parameters.persistence 0.324985342922
+parameters Parameters(drift=-0.175014657078, persistence=0.324985342922, voloflogvol=0.328485636064, cor=-0.675014647078, jumpintensity=0.0324985342922, jumpvol=1.95341235067)
+iterating through times...
+parameters Parameters(drift=-0.175014657078, persistence=0.324985342922, voloflogvol=0.328485636064, cor=-0.675014647078, jumpintensity=0.0324985342922, jumpvol=1.95341235067)
+loglikelihood -2027.88148015
+parameters.persistence 0.324985342922
+parameters Parameters(drift=-0.175014657078, persistence=0.324985342922, voloflogvol=0.328485636064, cor=-0.675014657078, jumpintensity=0.0324985442922, jumpvol=1.95341235067)
+iterating through times...
+parameters Parameters(drift=-0.175014657078, persistence=0.324985342922, voloflogvol=0.328485636064, cor=-0.675014657078, jumpintensity=0.0324985442922, jumpvol=1.95341235067)
+loglikelihood -2046.31416294
+parameters.persistence 0.324985342922
+parameters Parameters(drift=-0.175014657078, persistence=0.324985342922, voloflogvol=0.328485636064, cor=-0.675014657078, jumpintensity=0.0324985342922, jumpvol=1.95341236067)
+iterating through times...
+parameters Parameters(drift=-0.175014657078, persistence=0.324985342922, voloflogvol=0.328485636064, cor=-0.675014657078, jumpintensity=0.0324985342922, jumpvol=1.95341236067)
+loglikelihood -2041.9005479
+parameters.persistence 0.438477744081
+parameters Parameters(drift=-0.0615222559192, persistence=0.438477744081, voloflogvol=0.439708189199, cor=-0.561522255919, jumpintensity=0.0438477744081, jumpvol=2.6320969096)
+iterating through times...
+parameters Parameters(drift=-0.0615222559192, persistence=0.438477744081, voloflogvol=0.439708189199, cor=-0.561522255919, jumpintensity=0.0438477744081, jumpvol=2.6320969096)
+loglikelihood -1899.23894014
+parameters.persistence 0.438477744081
+parameters Parameters(drift=-0.0615222559192, persistence=0.438477744081, voloflogvol=0.439708189199, cor=-0.561522255919, jumpintensity=0.0438477744081, jumpvol=2.6320969096)
+iterating through times...
+parameters Parameters(drift=-0.0615222559192, persistence=0.438477744081, voloflogvol=0.439708189199, cor=-0.561522255919, jumpintensity=0.0438477744081, jumpvol=2.6320969096)
+loglikelihood -1907.70773661
+parameters.persistence 0.438477744081
+parameters Parameters(drift=-0.0615222459192, persistence=0.438477744081, voloflogvol=0.439708189199, cor=-0.561522255919, jumpintensity=0.0438477744081, jumpvol=2.6320969096)
+iterating through times...
+parameters Parameters(drift=-0.0615222459192, persistence=0.438477744081, voloflogvol=0.439708189199, cor=-0.561522255919, jumpintensity=0.0438477744081, jumpvol=2.6320969096)
+loglikelihood -1901.61470598
+parameters.persistence 0.438477754081
+parameters Parameters(drift=-0.0615222559192, persistence=0.438477754081, voloflogvol=0.439708189199, cor=-0.561522255919, jumpintensity=0.0438477744081, jumpvol=2.6320969096)
+iterating through times...
+parameters Parameters(drift=-0.0615222559192, persistence=0.438477754081, voloflogvol=0.439708189199, cor=-0.561522255919, jumpintensity=0.0438477744081, jumpvol=2.6320969096)
+loglikelihood -1910.28500887
+parameters.persistence 0.438477744081
+parameters Parameters(drift=-0.0615222559192, persistence=0.438477744081, voloflogvol=0.439708199199, cor=-0.561522255919, jumpintensity=0.0438477744081, jumpvol=2.6320969096)
+iterating through times...
+parameters Parameters(drift=-0.0615222559192, persistence=0.438477744081, voloflogvol=0.439708199199, cor=-0.561522255919, jumpintensity=0.0438477744081, jumpvol=2.6320969096)
+loglikelihood -1898.6840757
+parameters.persistence 0.438477744081
+parameters Parameters(drift=-0.0615222559192, persistence=0.438477744081, voloflogvol=0.439708189199, cor=-0.561522245919, jumpintensity=0.0438477744081, jumpvol=2.6320969096)
+iterating through times...
+parameters Parameters(drift=-0.0615222559192, persistence=0.438477744081, voloflogvol=0.439708189199, cor=-0.561522245919, jumpintensity=0.0438477744081, jumpvol=2.6320969096)
+loglikelihood -1902.9607998
+parameters.persistence 0.438477744081
+parameters Parameters(drift=-0.0615222559192, persistence=0.438477744081, voloflogvol=0.439708189199, cor=-0.561522255919, jumpintensity=0.0438477844081, jumpvol=2.6320969096)
+iterating through times...
+parameters Parameters(drift=-0.0615222559192, persistence=0.438477744081, voloflogvol=0.439708189199, cor=-0.561522255919, jumpintensity=0.0438477844081, jumpvol=2.6320969096)
+loglikelihood -1900.86476077
+parameters.persistence 0.438477744081
+parameters Parameters(drift=-0.0615222559192, persistence=0.438477744081, voloflogvol=0.439708189199, cor=-0.561522255919, jumpintensity=0.0438477744081, jumpvol=2.6320969196)
+iterating through times...
+parameters Parameters(drift=-0.0615222559192, persistence=0.438477744081, voloflogvol=0.439708189199, cor=-0.561522255919, jumpintensity=0.0438477744081, jumpvol=2.6320969196)
+loglikelihood -1913.68601299
+parameters.persistence 0.480691275186
+parameters Parameters(drift=-0.0193087248142, persistence=0.480691275186, voloflogvol=0.481077449682, cor=-0.519308724814, jumpintensity=0.0480691275186, jumpvol=2.88453382561)
+iterating through times...
+parameters Parameters(drift=-0.0193087248142, persistence=0.480691275186, voloflogvol=0.481077449682, cor=-0.519308724814, jumpintensity=0.0480691275186, jumpvol=2.88453382561)
+loglikelihood -1866.05610343
+parameters.persistence 0.480691275186
+parameters Parameters(drift=-0.0193087248142, persistence=0.480691275186, voloflogvol=0.481077449682, cor=-0.519308724814, jumpintensity=0.0480691275186, jumpvol=2.88453382561)
+iterating through times...
+parameters Parameters(drift=-0.0193087248142, persistence=0.480691275186, voloflogvol=0.481077449682, cor=-0.519308724814, jumpintensity=0.0480691275186, jumpvol=2.88453382561)
+loglikelihood -1870.02982615
+parameters.persistence 0.480691275186
+parameters Parameters(drift=-0.0193087148142, persistence=0.480691275186, voloflogvol=0.481077449682, cor=-0.519308724814, jumpintensity=0.0480691275186, jumpvol=2.88453382561)
+iterating through times...
+parameters Parameters(drift=-0.0193087148142, persistence=0.480691275186, voloflogvol=0.481077449682, cor=-0.519308724814, jumpintensity=0.0480691275186, jumpvol=2.88453382561)
+loglikelihood -1876.59998437
+parameters.persistence 0.480691285186
+parameters Parameters(drift=-0.0193087248142, persistence=0.480691285186, voloflogvol=0.481077449682, cor=-0.519308724814, jumpintensity=0.0480691275186, jumpvol=2.88453382561)
+iterating through times...
+parameters Parameters(drift=-0.0193087248142, persistence=0.480691285186, voloflogvol=0.481077449682, cor=-0.519308724814, jumpintensity=0.0480691275186, jumpvol=2.88453382561)
+loglikelihood -1868.80934126
+parameters.persistence 0.480691275186
+parameters Parameters(drift=-0.0193087248142, persistence=0.480691275186, voloflogvol=0.481077459682, cor=-0.519308724814, jumpintensity=0.0480691275186, jumpvol=2.88453382561)
+iterating through times...
+parameters Parameters(drift=-0.0193087248142, persistence=0.480691275186, voloflogvol=0.481077459682, cor=-0.519308724814, jumpintensity=0.0480691275186, jumpvol=2.88453382561)
+loglikelihood -1862.11221205
+parameters.persistence 0.480691275186
+parameters Parameters(drift=-0.0193087248142, persistence=0.480691275186, voloflogvol=0.481077449682, cor=-0.519308714814, jumpintensity=0.0480691275186, jumpvol=2.88453382561)
+iterating through times...
+parameters Parameters(drift=-0.0193087248142, persistence=0.480691275186, voloflogvol=0.481077449682, cor=-0.519308714814, jumpintensity=0.0480691275186, jumpvol=2.88453382561)
+loglikelihood -1877.04352896
+parameters.persistence 0.480691275186
+parameters Parameters(drift=-0.0193087248142, persistence=0.480691275186, voloflogvol=0.481077449682, cor=-0.519308724814, jumpintensity=0.0480691375186, jumpvol=2.88453382561)
+iterating through times...
+parameters Parameters(drift=-0.0193087248142, persistence=0.480691275186, voloflogvol=0.481077449682, cor=-0.519308724814, jumpintensity=0.0480691375186, jumpvol=2.88453382561)
+loglikelihood -1874.04295366
+parameters.persistence 0.480691275186
+parameters Parameters(drift=-0.0193087248142, persistence=0.480691275186, voloflogvol=0.481077449682, cor=-0.519308724814, jumpintensity=0.0480691275186, jumpvol=2.88453383561)
+iterating through times...
+parameters Parameters(drift=-0.0193087248142, persistence=0.480691275186, voloflogvol=0.481077449682, cor=-0.519308724814, jumpintensity=0.0480691275186, jumpvol=2.88453383561)
+loglikelihood -1864.02083924
+parameters.persistence 0.492864600246
+parameters Parameters(drift=-0.00713539975408, persistence=0.492864600246, voloflogvol=0.493007308241, cor=-0.507135399754, jumpintensity=0.0492864600246, jumpvol=2.95733030947)
+iterating through times...
+parameters Parameters(drift=-0.00713539975408, persistence=0.492864600246, voloflogvol=0.493007308241, cor=-0.507135399754, jumpintensity=0.0492864600246, jumpvol=2.95733030947)
+loglikelihood -1860.93926693
+parameters.persistence 0.492864600246
+parameters Parameters(drift=-0.00713539975408, persistence=0.492864600246, voloflogvol=0.493007308241, cor=-0.507135399754, jumpintensity=0.0492864600246, jumpvol=2.95733030947)
+iterating through times...
+parameters Parameters(drift=-0.00713539975408, persistence=0.492864600246, voloflogvol=0.493007308241, cor=-0.507135399754, jumpintensity=0.0492864600246, jumpvol=2.95733030947)
+loglikelihood -1847.05578527
+parameters.persistence 0.492864600246
+parameters Parameters(drift=-0.00713538975408, persistence=0.492864600246, voloflogvol=0.493007308241, cor=-0.507135399754, jumpintensity=0.0492864600246, jumpvol=2.95733030947)
+iterating through times...
+parameters Parameters(drift=-0.00713538975408, persistence=0.492864600246, voloflogvol=0.493007308241, cor=-0.507135399754, jumpintensity=0.0492864600246, jumpvol=2.95733030947)
+loglikelihood -1864.81562449
+parameters.persistence 0.492864610246
+parameters Parameters(drift=-0.00713539975408, persistence=0.492864610246, voloflogvol=0.493007308241, cor=-0.507135399754, jumpintensity=0.0492864600246, jumpvol=2.95733030947)
+iterating through times...
+parameters Parameters(drift=-0.00713539975408, persistence=0.492864610246, voloflogvol=0.493007308241, cor=-0.507135399754, jumpintensity=0.0492864600246, jumpvol=2.95733030947)
+loglikelihood -1858.91518662
+parameters.persistence 0.492864600246
+parameters Parameters(drift=-0.00713539975408, persistence=0.492864600246, voloflogvol=0.493007318241, cor=-0.507135399754, jumpintensity=0.0492864600246, jumpvol=2.95733030947)
+iterating through times...
+parameters Parameters(drift=-0.00713539975408, persistence=0.492864600246, voloflogvol=0.493007318241, cor=-0.507135399754, jumpintensity=0.0492864600246, jumpvol=2.95733030947)
+loglikelihood -1860.4243878
+parameters.persistence 0.492864600246
+parameters Parameters(drift=-0.00713539975408, persistence=0.492864600246, voloflogvol=0.493007308241, cor=-0.507135389754, jumpintensity=0.0492864600246, jumpvol=2.95733030947)
+iterating through times...
+parameters Parameters(drift=-0.00713539975408, persistence=0.492864600246, voloflogvol=0.493007308241, cor=-0.507135389754, jumpintensity=0.0492864600246, jumpvol=2.95733030947)
+loglikelihood -1864.81974509
+parameters.persistence 0.492864600246
+parameters Parameters(drift=-0.00713539975408, persistence=0.492864600246, voloflogvol=0.493007308241, cor=-0.507135399754, jumpintensity=0.0492864700246, jumpvol=2.95733030947)
+iterating through times...
+parameters Parameters(drift=-0.00713539975408, persistence=0.492864600246, voloflogvol=0.493007308241, cor=-0.507135399754, jumpintensity=0.0492864700246, jumpvol=2.95733030947)
+loglikelihood -1860.51101111
+parameters.persistence 0.492864600246
+parameters Parameters(drift=-0.00713539975408, persistence=0.492864600246, voloflogvol=0.493007308241, cor=-0.507135399754, jumpintensity=0.0492864600246, jumpvol=2.95733031947)
+iterating through times...
+parameters Parameters(drift=-0.00713539975408, persistence=0.492864600246, voloflogvol=0.493007308241, cor=-0.507135399754, jumpintensity=0.0492864600246, jumpvol=2.95733031947)
+loglikelihood -1865.50894005
+parameters.persistence 0.498580729369
+parameters Parameters(drift=-0.00141927063095, persistence=0.498580729369, voloflogvol=0.498609114782, cor=-0.501419270631, jumpintensity=0.0498580729369, jumpvol=2.99151276163)
+iterating through times...
+parameters Parameters(drift=-0.00141927063095, persistence=0.498580729369, voloflogvol=0.498609114782, cor=-0.501419270631, jumpintensity=0.0498580729369, jumpvol=2.99151276163)
+loglikelihood -1857.4303822
+parameters.persistence 0.498580729369
+parameters Parameters(drift=-0.00141927063095, persistence=0.498580729369, voloflogvol=0.498609114782, cor=-0.501419270631, jumpintensity=0.0498580729369, jumpvol=2.99151276163)
+iterating through times...
+parameters Parameters(drift=-0.00141927063095, persistence=0.498580729369, voloflogvol=0.498609114782, cor=-0.501419270631, jumpintensity=0.0498580729369, jumpvol=2.99151276163)
+loglikelihood -1851.71940209
+parameters.persistence 0.498580729369
+parameters Parameters(drift=-0.00141926063095, persistence=0.498580729369, voloflogvol=0.498609114782, cor=-0.501419270631, jumpintensity=0.0498580729369, jumpvol=2.99151276163)
+iterating through times...
+parameters Parameters(drift=-0.00141926063095, persistence=0.498580729369, voloflogvol=0.498609114782, cor=-0.501419270631, jumpintensity=0.0498580729369, jumpvol=2.99151276163)
+loglikelihood -1853.49433713
+parameters.persistence 0.498580739369
+parameters Parameters(drift=-0.00141927063095, persistence=0.498580739369, voloflogvol=0.498609114782, cor=-0.501419270631, jumpintensity=0.0498580729369, jumpvol=2.99151276163)
+iterating through times...
+parameters Parameters(drift=-0.00141927063095, persistence=0.498580739369, voloflogvol=0.498609114782, cor=-0.501419270631, jumpintensity=0.0498580729369, jumpvol=2.99151276163)
+loglikelihood -1850.31227847
+parameters.persistence 0.498580729369
+parameters Parameters(drift=-0.00141927063095, persistence=0.498580729369, voloflogvol=0.498609124782, cor=-0.501419270631, jumpintensity=0.0498580729369, jumpvol=2.99151276163)
+iterating through times...
+parameters Parameters(drift=-0.00141927063095, persistence=0.498580729369, voloflogvol=0.498609124782, cor=-0.501419270631, jumpintensity=0.0498580729369, jumpvol=2.99151276163)
+loglikelihood -1845.12760447
+parameters.persistence 0.498580729369
+parameters Parameters(drift=-0.00141927063095, persistence=0.498580729369, voloflogvol=0.498609114782, cor=-0.501419260631, jumpintensity=0.0498580729369, jumpvol=2.99151276163)
+iterating through times...
+parameters Parameters(drift=-0.00141927063095, persistence=0.498580729369, voloflogvol=0.498609114782, cor=-0.501419260631, jumpintensity=0.0498580729369, jumpvol=2.99151276163)
+loglikelihood -1847.0928166
+parameters.persistence 0.498580729369
+parameters Parameters(drift=-0.00141927063095, persistence=0.498580729369, voloflogvol=0.498609114782, cor=-0.501419270631, jumpintensity=0.0498580829369, jumpvol=2.99151276163)
+iterating through times...
+parameters Parameters(drift=-0.00141927063095, persistence=0.498580729369, voloflogvol=0.498609114782, cor=-0.501419270631, jumpintensity=0.0498580829369, jumpvol=2.99151276163)
+loglikelihood -1845.75805895
+parameters.persistence 0.498580729369
+parameters Parameters(drift=-0.00141927063095, persistence=0.498580729369, voloflogvol=0.498609114782, cor=-0.501419270631, jumpintensity=0.0498580729369, jumpvol=2.99151277163)
+iterating through times...
+parameters Parameters(drift=-0.00141927063095, persistence=0.498580729369, voloflogvol=0.498609114782, cor=-0.501419270631, jumpintensity=0.0498580729369, jumpvol=2.99151277163)
+loglikelihood -1863.69692128
+parameters.persistence 0.49961204585
+parameters Parameters(drift=-0.000387954149777, persistence=0.49961204585, voloflogvol=0.499619804933, cor=-0.50038795415, jumpintensity=0.049961204585, jumpvol=2.99768003418)
+iterating through times...
+parameters Parameters(drift=-0.000387954149777, persistence=0.49961204585, voloflogvol=0.499619804933, cor=-0.50038795415, jumpintensity=0.049961204585, jumpvol=2.99768003418)
+loglikelihood -1852.36154827
+parameters.persistence 0.49961204585
+parameters Parameters(drift=-0.000387954149777, persistence=0.49961204585, voloflogvol=0.499619804933, cor=-0.50038795415, jumpintensity=0.049961204585, jumpvol=2.99768003418)
+iterating through times...
+parameters Parameters(drift=-0.000387954149777, persistence=0.49961204585, voloflogvol=0.499619804933, cor=-0.50038795415, jumpintensity=0.049961204585, jumpvol=2.99768003418)
+loglikelihood -1847.2731706
+parameters.persistence 0.49961204585
+parameters Parameters(drift=-0.000387944149777, persistence=0.49961204585, voloflogvol=0.499619804933, cor=-0.50038795415, jumpintensity=0.049961204585, jumpvol=2.99768003418)
+iterating through times...
+parameters Parameters(drift=-0.000387944149777, persistence=0.49961204585, voloflogvol=0.499619804933, cor=-0.50038795415, jumpintensity=0.049961204585, jumpvol=2.99768003418)
+loglikelihood -1855.52082654
+parameters.persistence 0.49961205585
+parameters Parameters(drift=-0.000387954149777, persistence=0.49961205585, voloflogvol=0.499619804933, cor=-0.50038795415, jumpintensity=0.049961204585, jumpvol=2.99768003418)
+iterating through times...
+parameters Parameters(drift=-0.000387954149777, persistence=0.49961205585, voloflogvol=0.499619804933, cor=-0.50038795415, jumpintensity=0.049961204585, jumpvol=2.99768003418)
+loglikelihood -1862.71209181
+parameters.persistence 0.49961204585
+parameters Parameters(drift=-0.000387954149777, persistence=0.49961204585, voloflogvol=0.499619814933, cor=-0.50038795415, jumpintensity=0.049961204585, jumpvol=2.99768003418)
+iterating through times...
+parameters Parameters(drift=-0.000387954149777, persistence=0.49961204585, voloflogvol=0.499619814933, cor=-0.50038795415, jumpintensity=0.049961204585, jumpvol=2.99768003418)
+loglikelihood -1852.68542513
+parameters.persistence 0.49961204585
+parameters Parameters(drift=-0.000387954149777, persistence=0.49961204585, voloflogvol=0.499619804933, cor=-0.50038794415, jumpintensity=0.049961204585, jumpvol=2.99768003418)
+iterating through times...
+parameters Parameters(drift=-0.000387954149777, persistence=0.49961204585, voloflogvol=0.499619804933, cor=-0.50038794415, jumpintensity=0.049961204585, jumpvol=2.99768003418)
+loglikelihood -1860.10917872
+parameters.persistence 0.49961204585
+parameters Parameters(drift=-0.000387954149777, persistence=0.49961204585, voloflogvol=0.499619804933, cor=-0.50038795415, jumpintensity=0.049961214585, jumpvol=2.99768003418)
+iterating through times...
+parameters Parameters(drift=-0.000387954149777, persistence=0.49961204585, voloflogvol=0.499619804933, cor=-0.50038795415, jumpintensity=0.049961214585, jumpvol=2.99768003418)
+loglikelihood -1855.21148678
+parameters.persistence 0.49961204585
+parameters Parameters(drift=-0.000387954149777, persistence=0.49961204585, voloflogvol=0.499619804933, cor=-0.50038795415, jumpintensity=0.049961204585, jumpvol=2.99768004418)
+iterating through times...
+parameters Parameters(drift=-0.000387954149777, persistence=0.49961204585, voloflogvol=0.499619804933, cor=-0.50038795415, jumpintensity=0.049961204585, jumpvol=2.99768004418)
+loglikelihood -1849.38182053
+parameters.persistence 0.499892227129
+parameters Parameters(drift=-0.000107772870866, persistence=0.499892227129, voloflogvol=0.499894382587, cor=-0.500107772871, jumpintensity=0.0499892227129, jumpvol=2.99935551823)
+iterating through times...
+parameters Parameters(drift=-0.000107772870866, persistence=0.499892227129, voloflogvol=0.499894382587, cor=-0.500107772871, jumpintensity=0.0499892227129, jumpvol=2.99935551823)
+loglikelihood -1858.0544155
+parameters.persistence 0.499892227129
+parameters Parameters(drift=-0.000107772870866, persistence=0.499892227129, voloflogvol=0.499894382587, cor=-0.500107772871, jumpintensity=0.0499892227129, jumpvol=2.99935551823)
+iterating through times...
+parameters Parameters(drift=-0.000107772870866, persistence=0.499892227129, voloflogvol=0.499894382587, cor=-0.500107772871, jumpintensity=0.0499892227129, jumpvol=2.99935551823)
+loglikelihood -1853.03835788
+parameters.persistence 0.499892227129
+parameters Parameters(drift=-0.000107762870866, persistence=0.499892227129, voloflogvol=0.499894382587, cor=-0.500107772871, jumpintensity=0.0499892227129, jumpvol=2.99935551823)
+iterating through times...
+parameters Parameters(drift=-0.000107762870866, persistence=0.499892227129, voloflogvol=0.499894382587, cor=-0.500107772871, jumpintensity=0.0499892227129, jumpvol=2.99935551823)
+loglikelihood -1851.48931723
+parameters.persistence 0.499892237129
+parameters Parameters(drift=-0.000107772870866, persistence=0.499892237129, voloflogvol=0.499894382587, cor=-0.500107772871, jumpintensity=0.0499892227129, jumpvol=2.99935551823)
+iterating through times...
+parameters Parameters(drift=-0.000107772870866, persistence=0.499892237129, voloflogvol=0.499894382587, cor=-0.500107772871, jumpintensity=0.0499892227129, jumpvol=2.99935551823)
+loglikelihood -1856.32764596
+parameters.persistence 0.499892227129
+parameters Parameters(drift=-0.000107772870866, persistence=0.499892227129, voloflogvol=0.499894392587, cor=-0.500107772871, jumpintensity=0.0499892227129, jumpvol=2.99935551823)
+iterating through times...
+parameters Parameters(drift=-0.000107772870866, persistence=0.499892227129, voloflogvol=0.499894392587, cor=-0.500107772871, jumpintensity=0.0499892227129, jumpvol=2.99935551823)
+loglikelihood -1847.89693764
+parameters.persistence 0.499892227129
+parameters Parameters(drift=-0.000107772870866, persistence=0.499892227129, voloflogvol=0.499894382587, cor=-0.500107762871, jumpintensity=0.0499892227129, jumpvol=2.99935551823)
+iterating through times...
+parameters Parameters(drift=-0.000107772870866, persistence=0.499892227129, voloflogvol=0.499894382587, cor=-0.500107762871, jumpintensity=0.0499892227129, jumpvol=2.99935551823)
+loglikelihood -1843.88897292
+parameters.persistence 0.499892227129
+parameters Parameters(drift=-0.000107772870866, persistence=0.499892227129, voloflogvol=0.499894382587, cor=-0.500107772871, jumpintensity=0.0499892327129, jumpvol=2.99935551823)
+iterating through times...
+parameters Parameters(drift=-0.000107772870866, persistence=0.499892227129, voloflogvol=0.499894382587, cor=-0.500107772871, jumpintensity=0.0499892327129, jumpvol=2.99935551823)
+loglikelihood -1843.93974742
+parameters.persistence 0.499892227129
+parameters Parameters(drift=-0.000107772870866, persistence=0.499892227129, voloflogvol=0.499894382587, cor=-0.500107772871, jumpintensity=0.0499892227129, jumpvol=2.99935552823)
+iterating through times...
+parameters Parameters(drift=-0.000107772870866, persistence=0.499892227129, voloflogvol=0.499894382587, cor=-0.500107772871, jumpintensity=0.0499892227129, jumpvol=2.99935552823)
+loglikelihood -1852.92264618
+parameters.persistence 0.499962341674
+parameters Parameters(drift=-3.76583260551e-05, persistence=0.499962341674, voloflogvol=0.49996309484, cor=-0.500037658326, jumpintensity=0.0499962341674, jumpvol=2.99977480321)
+iterating through times...
+parameters Parameters(drift=-3.76583260551e-05, persistence=0.499962341674, voloflogvol=0.49996309484, cor=-0.500037658326, jumpintensity=0.0499962341674, jumpvol=2.99977480321)
+loglikelihood -1847.7518488
+parameters.persistence 0.499962341674
+parameters Parameters(drift=-3.76583260551e-05, persistence=0.499962341674, voloflogvol=0.49996309484, cor=-0.500037658326, jumpintensity=0.0499962341674, jumpvol=2.99977480321)
+iterating through times...
+parameters Parameters(drift=-3.76583260551e-05, persistence=0.499962341674, voloflogvol=0.49996309484, cor=-0.500037658326, jumpintensity=0.0499962341674, jumpvol=2.99977480321)
+loglikelihood -1839.29472897
+parameters.persistence 0.499962341674
+parameters Parameters(drift=-3.76483260551e-05, persistence=0.499962341674, voloflogvol=0.49996309484, cor=-0.500037658326, jumpintensity=0.0499962341674, jumpvol=2.99977480321)
+iterating through times...
+parameters Parameters(drift=-3.76483260551e-05, persistence=0.499962341674, voloflogvol=0.49996309484, cor=-0.500037658326, jumpintensity=0.0499962341674, jumpvol=2.99977480321)
+loglikelihood -1852.32510649
+parameters.persistence 0.499962351674
+parameters Parameters(drift=-3.76583260551e-05, persistence=0.499962351674, voloflogvol=0.49996309484, cor=-0.500037658326, jumpintensity=0.0499962341674, jumpvol=2.99977480321)
+iterating through times...
+parameters Parameters(drift=-3.76583260551e-05, persistence=0.499962351674, voloflogvol=0.49996309484, cor=-0.500037658326, jumpintensity=0.0499962341674, jumpvol=2.99977480321)
+loglikelihood -1851.80789468
+parameters.persistence 0.499962341674
+parameters Parameters(drift=-3.76583260551e-05, persistence=0.499962341674, voloflogvol=0.49996310484, cor=-0.500037658326, jumpintensity=0.0499962341674, jumpvol=2.99977480321)
+iterating through times...
+parameters Parameters(drift=-3.76583260551e-05, persistence=0.499962341674, voloflogvol=0.49996310484, cor=-0.500037658326, jumpintensity=0.0499962341674, jumpvol=2.99977480321)
+loglikelihood -1850.11261385
+parameters.persistence 0.499962341674
+parameters Parameters(drift=-3.76583260551e-05, persistence=0.499962341674, voloflogvol=0.49996309484, cor=-0.500037648326, jumpintensity=0.0499962341674, jumpvol=2.99977480321)
+iterating through times...
+parameters Parameters(drift=-3.76583260551e-05, persistence=0.499962341674, voloflogvol=0.49996309484, cor=-0.500037648326, jumpintensity=0.0499962341674, jumpvol=2.99977480321)
+loglikelihood -1858.43578486
+parameters.persistence 0.499962341674
+parameters Parameters(drift=-3.76583260551e-05, persistence=0.499962341674, voloflogvol=0.49996309484, cor=-0.500037658326, jumpintensity=0.0499962441674, jumpvol=2.99977480321)
+iterating through times...
+parameters Parameters(drift=-3.76583260551e-05, persistence=0.499962341674, voloflogvol=0.49996309484, cor=-0.500037658326, jumpintensity=0.0499962441674, jumpvol=2.99977480321)
+loglikelihood -1858.00105142
+parameters.persistence 0.499962341674
+parameters Parameters(drift=-3.76583260551e-05, persistence=0.499962341674, voloflogvol=0.49996309484, cor=-0.500037658326, jumpintensity=0.0499962341674, jumpvol=2.99977481321)
+iterating through times...
+parameters Parameters(drift=-3.76583260551e-05, persistence=0.499962341674, voloflogvol=0.49996309484, cor=-0.500037658326, jumpintensity=0.0499962341674, jumpvol=2.99977481321)
+loglikelihood -1854.50736061
+parameters.persistence 0.499992039372
+parameters Parameters(drift=-7.96062847444e-06, persistence=0.499992039372, voloflogvol=0.499992198584, cor=-0.500007960628, jumpintensity=0.0499992039372, jumpvol=2.99995239544)
+iterating through times...
+parameters Parameters(drift=-7.96062847444e-06, persistence=0.499992039372, voloflogvol=0.499992198584, cor=-0.500007960628, jumpintensity=0.0499992039372, jumpvol=2.99995239544)
+loglikelihood -1854.45541281
+parameters.persistence 0.499992039372
+parameters Parameters(drift=-7.96062847444e-06, persistence=0.499992039372, voloflogvol=0.499992198584, cor=-0.500007960628, jumpintensity=0.0499992039372, jumpvol=2.99995239544)
+iterating through times...
+parameters Parameters(drift=-7.96062847444e-06, persistence=0.499992039372, voloflogvol=0.499992198584, cor=-0.500007960628, jumpintensity=0.0499992039372, jumpvol=2.99995239544)
+loglikelihood -1865.59571178
+parameters.persistence 0.499992039372
+parameters Parameters(drift=-7.95062847444e-06, persistence=0.499992039372, voloflogvol=0.499992198584, cor=-0.500007960628, jumpintensity=0.0499992039372, jumpvol=2.99995239544)
+iterating through times...
+parameters Parameters(drift=-7.95062847444e-06, persistence=0.499992039372, voloflogvol=0.499992198584, cor=-0.500007960628, jumpintensity=0.0499992039372, jumpvol=2.99995239544)
+loglikelihood -1863.28589477
+parameters.persistence 0.499992049372
+parameters Parameters(drift=-7.96062847444e-06, persistence=0.499992049372, voloflogvol=0.499992198584, cor=-0.500007960628, jumpintensity=0.0499992039372, jumpvol=2.99995239544)
+iterating through times...
+parameters Parameters(drift=-7.96062847444e-06, persistence=0.499992049372, voloflogvol=0.499992198584, cor=-0.500007960628, jumpintensity=0.0499992039372, jumpvol=2.99995239544)
+loglikelihood -1855.03417259
+parameters.persistence 0.499992039372
+parameters Parameters(drift=-7.96062847444e-06, persistence=0.499992039372, voloflogvol=0.499992208584, cor=-0.500007960628, jumpintensity=0.0499992039372, jumpvol=2.99995239544)
+iterating through times...
+parameters Parameters(drift=-7.96062847444e-06, persistence=0.499992039372, voloflogvol=0.499992208584, cor=-0.500007960628, jumpintensity=0.0499992039372, jumpvol=2.99995239544)
+loglikelihood -1855.65928708
+parameters.persistence 0.499992039372
+parameters Parameters(drift=-7.96062847444e-06, persistence=0.499992039372, voloflogvol=0.499992198584, cor=-0.500007950628, jumpintensity=0.0499992039372, jumpvol=2.99995239544)
+iterating through times...
+parameters Parameters(drift=-7.96062847444e-06, persistence=0.499992039372, voloflogvol=0.499992198584, cor=-0.500007950628, jumpintensity=0.0499992039372, jumpvol=2.99995239544)
+loglikelihood -1851.28556463
+parameters.persistence 0.499992039372
+parameters Parameters(drift=-7.96062847444e-06, persistence=0.499992039372, voloflogvol=0.499992198584, cor=-0.500007960628, jumpintensity=0.0499992139372, jumpvol=2.99995239544)
+iterating through times...
+parameters Parameters(drift=-7.96062847444e-06, persistence=0.499992039372, voloflogvol=0.499992198584, cor=-0.500007960628, jumpintensity=0.0499992139372, jumpvol=2.99995239544)
+loglikelihood -1854.82753164
+parameters.persistence 0.499992039372
+parameters Parameters(drift=-7.96062847444e-06, persistence=0.499992039372, voloflogvol=0.499992198584, cor=-0.500007960628, jumpintensity=0.0499992039372, jumpvol=2.99995240544)
+iterating through times...
+parameters Parameters(drift=-7.96062847444e-06, persistence=0.499992039372, voloflogvol=0.499992198584, cor=-0.500007960628, jumpintensity=0.0499992039372, jumpvol=2.99995240544)
+loglikelihood -1857.59409772
+parameters.persistence 0.499996527509
+parameters Parameters(drift=-3.47249092193e-06, persistence=0.499996527509, voloflogvol=0.499996596959, cor=-0.500003472491, jumpintensity=0.0499996527509, jumpvol=2.9999792345)
+iterating through times...
+parameters Parameters(drift=-3.47249092193e-06, persistence=0.499996527509, voloflogvol=0.499996596959, cor=-0.500003472491, jumpintensity=0.0499996527509, jumpvol=2.9999792345)
+loglikelihood -1846.87185021
+parameters.persistence 0.499996527509
+parameters Parameters(drift=-3.47249092193e-06, persistence=0.499996527509, voloflogvol=0.499996596959, cor=-0.500003472491, jumpintensity=0.0499996527509, jumpvol=2.9999792345)
+iterating through times...
+parameters Parameters(drift=-3.47249092193e-06, persistence=0.499996527509, voloflogvol=0.499996596959, cor=-0.500003472491, jumpintensity=0.0499996527509, jumpvol=2.9999792345)
+loglikelihood -1860.92147094
+parameters.persistence 0.499996527509
+parameters Parameters(drift=-3.46249092193e-06, persistence=0.499996527509, voloflogvol=0.499996596959, cor=-0.500003472491, jumpintensity=0.0499996527509, jumpvol=2.9999792345)
+iterating through times...
+parameters Parameters(drift=-3.46249092193e-06, persistence=0.499996527509, voloflogvol=0.499996596959, cor=-0.500003472491, jumpintensity=0.0499996527509, jumpvol=2.9999792345)
+loglikelihood -1856.80980048
+parameters.persistence 0.499996537509
+parameters Parameters(drift=-3.47249092193e-06, persistence=0.499996537509, voloflogvol=0.499996596959, cor=-0.500003472491, jumpintensity=0.0499996527509, jumpvol=2.9999792345)
+iterating through times...
+parameters Parameters(drift=-3.47249092193e-06, persistence=0.499996537509, voloflogvol=0.499996596959, cor=-0.500003472491, jumpintensity=0.0499996527509, jumpvol=2.9999792345)
+loglikelihood -1855.92301924
+parameters.persistence 0.499996527509
+parameters Parameters(drift=-3.47249092193e-06, persistence=0.499996527509, voloflogvol=0.499996606959, cor=-0.500003472491, jumpintensity=0.0499996527509, jumpvol=2.9999792345)
+iterating through times...
+parameters Parameters(drift=-3.47249092193e-06, persistence=0.499996527509, voloflogvol=0.499996606959, cor=-0.500003472491, jumpintensity=0.0499996527509, jumpvol=2.9999792345)
+loglikelihood -1853.1136362
+parameters.persistence 0.499996527509
+parameters Parameters(drift=-3.47249092193e-06, persistence=0.499996527509, voloflogvol=0.499996596959, cor=-0.500003462491, jumpintensity=0.0499996527509, jumpvol=2.9999792345)
+iterating through times...
+parameters Parameters(drift=-3.47249092193e-06, persistence=0.499996527509, voloflogvol=0.499996596959, cor=-0.500003462491, jumpintensity=0.0499996527509, jumpvol=2.9999792345)
+loglikelihood -1849.33698816
+parameters.persistence 0.499996527509
+parameters Parameters(drift=-3.47249092193e-06, persistence=0.499996527509, voloflogvol=0.499996596959, cor=-0.500003472491, jumpintensity=0.0499996627509, jumpvol=2.9999792345)
+iterating through times...
+parameters Parameters(drift=-3.47249092193e-06, persistence=0.499996527509, voloflogvol=0.499996596959, cor=-0.500003472491, jumpintensity=0.0499996627509, jumpvol=2.9999792345)
+loglikelihood -1846.88712892
+parameters.persistence 0.499996527509
+parameters Parameters(drift=-3.47249092193e-06, persistence=0.499996527509, voloflogvol=0.499996596959, cor=-0.500003472491, jumpintensity=0.0499996527509, jumpvol=2.9999792445)
+iterating through times...
+parameters Parameters(drift=-3.47249092193e-06, persistence=0.499996527509, voloflogvol=0.499996596959, cor=-0.500003472491, jumpintensity=0.0499996527509, jumpvol=2.9999792445)
+loglikelihood -1852.75750989
+parameters.persistence 0.499998516704
+parameters Parameters(drift=-1.48329558954e-06, persistence=0.499998516704, voloflogvol=0.49999854637, cor=-0.500001483296, jumpintensity=0.0499998516704, jumpvol=2.99999112989)
+iterating through times...
+parameters Parameters(drift=-1.48329558954e-06, persistence=0.499998516704, voloflogvol=0.49999854637, cor=-0.500001483296, jumpintensity=0.0499998516704, jumpvol=2.99999112989)
+loglikelihood -1847.72001106
+parameters.persistence 0.499998516704
+parameters Parameters(drift=-1.48329558954e-06, persistence=0.499998516704, voloflogvol=0.49999854637, cor=-0.500001483296, jumpintensity=0.0499998516704, jumpvol=2.99999112989)
+iterating through times...
+parameters Parameters(drift=-1.48329558954e-06, persistence=0.499998516704, voloflogvol=0.49999854637, cor=-0.500001483296, jumpintensity=0.0499998516704, jumpvol=2.99999112989)
+loglikelihood -1859.04237465
+parameters.persistence 0.499998516704
+parameters Parameters(drift=-1.47329558954e-06, persistence=0.499998516704, voloflogvol=0.49999854637, cor=-0.500001483296, jumpintensity=0.0499998516704, jumpvol=2.99999112989)
+iterating through times...
+parameters Parameters(drift=-1.47329558954e-06, persistence=0.499998516704, voloflogvol=0.49999854637, cor=-0.500001483296, jumpintensity=0.0499998516704, jumpvol=2.99999112989)
+loglikelihood -1849.72186785
+parameters.persistence 0.499998526704
+parameters Parameters(drift=-1.48329558954e-06, persistence=0.499998526704, voloflogvol=0.49999854637, cor=-0.500001483296, jumpintensity=0.0499998516704, jumpvol=2.99999112989)
+iterating through times...
+parameters Parameters(drift=-1.48329558954e-06, persistence=0.499998526704, voloflogvol=0.49999854637, cor=-0.500001483296, jumpintensity=0.0499998516704, jumpvol=2.99999112989)
+loglikelihood -1848.05302127
+parameters.persistence 0.499998516704
+parameters Parameters(drift=-1.48329558954e-06, persistence=0.499998516704, voloflogvol=0.49999855637, cor=-0.500001483296, jumpintensity=0.0499998516704, jumpvol=2.99999112989)
+iterating through times...
+parameters Parameters(drift=-1.48329558954e-06, persistence=0.499998516704, voloflogvol=0.49999855637, cor=-0.500001483296, jumpintensity=0.0499998516704, jumpvol=2.99999112989)
+loglikelihood -1847.57767406
+parameters.persistence 0.499998516704
+parameters Parameters(drift=-1.48329558954e-06, persistence=0.499998516704, voloflogvol=0.49999854637, cor=-0.500001473296, jumpintensity=0.0499998516704, jumpvol=2.99999112989)
+iterating through times...
+parameters Parameters(drift=-1.48329558954e-06, persistence=0.499998516704, voloflogvol=0.49999854637, cor=-0.500001473296, jumpintensity=0.0499998516704, jumpvol=2.99999112989)
+loglikelihood -1849.68733667
+parameters.persistence 0.499998516704
+parameters Parameters(drift=-1.48329558954e-06, persistence=0.499998516704, voloflogvol=0.49999854637, cor=-0.500001483296, jumpintensity=0.0499998616704, jumpvol=2.99999112989)
+iterating through times...
+parameters Parameters(drift=-1.48329558954e-06, persistence=0.499998516704, voloflogvol=0.49999854637, cor=-0.500001483296, jumpintensity=0.0499998616704, jumpvol=2.99999112989)
+loglikelihood -1855.76815627
+parameters.persistence 0.499998516704
+parameters Parameters(drift=-1.48329558954e-06, persistence=0.499998516704, voloflogvol=0.49999854637, cor=-0.500001483296, jumpintensity=0.0499998516704, jumpvol=2.99999113989)
+iterating through times...
+parameters Parameters(drift=-1.48329558954e-06, persistence=0.499998516704, voloflogvol=0.49999854637, cor=-0.500001483296, jumpintensity=0.0499998516704, jumpvol=2.99999113989)
+loglikelihood -1852.05231494
+parameters.persistence 0.499999358481
+parameters Parameters(drift=-6.41518915466e-07, persistence=0.499999358481, voloflogvol=0.499999371311, cor=-0.500000641519, jumpintensity=0.0499999358481, jumpvol=2.99999616372)
+iterating through times...
+parameters Parameters(drift=-6.41518915466e-07, persistence=0.499999358481, voloflogvol=0.499999371311, cor=-0.500000641519, jumpintensity=0.0499999358481, jumpvol=2.99999616372)
+loglikelihood -1851.21259996
+parameters.persistence 0.499999358481
+parameters Parameters(drift=-6.41518915466e-07, persistence=0.499999358481, voloflogvol=0.499999371311, cor=-0.500000641519, jumpintensity=0.0499999358481, jumpvol=2.99999616372)
+iterating through times...
+parameters Parameters(drift=-6.41518915466e-07, persistence=0.499999358481, voloflogvol=0.499999371311, cor=-0.500000641519, jumpintensity=0.0499999358481, jumpvol=2.99999616372)
+loglikelihood -1850.04571021
+parameters.persistence 0.499999358481
+parameters Parameters(drift=-6.31518915466e-07, persistence=0.499999358481, voloflogvol=0.499999371311, cor=-0.500000641519, jumpintensity=0.0499999358481, jumpvol=2.99999616372)
+iterating through times...
+parameters Parameters(drift=-6.31518915466e-07, persistence=0.499999358481, voloflogvol=0.499999371311, cor=-0.500000641519, jumpintensity=0.0499999358481, jumpvol=2.99999616372)
+loglikelihood -1848.9173028
+parameters.persistence 0.499999368481
+parameters Parameters(drift=-6.41518915466e-07, persistence=0.499999368481, voloflogvol=0.499999371311, cor=-0.500000641519, jumpintensity=0.0499999358481, jumpvol=2.99999616372)
+iterating through times...
+parameters Parameters(drift=-6.41518915466e-07, persistence=0.499999368481, voloflogvol=0.499999371311, cor=-0.500000641519, jumpintensity=0.0499999358481, jumpvol=2.99999616372)
+loglikelihood -1856.96387788
+parameters.persistence 0.499999358481
+parameters Parameters(drift=-6.41518915466e-07, persistence=0.499999358481, voloflogvol=0.499999381311, cor=-0.500000641519, jumpintensity=0.0499999358481, jumpvol=2.99999616372)
+iterating through times...
+parameters Parameters(drift=-6.41518915466e-07, persistence=0.499999358481, voloflogvol=0.499999381311, cor=-0.500000641519, jumpintensity=0.0499999358481, jumpvol=2.99999616372)
+loglikelihood -1857.40385508
+parameters.persistence 0.499999358481
+parameters Parameters(drift=-6.41518915466e-07, persistence=0.499999358481, voloflogvol=0.499999371311, cor=-0.500000631519, jumpintensity=0.0499999358481, jumpvol=2.99999616372)
+iterating through times...
+parameters Parameters(drift=-6.41518915466e-07, persistence=0.499999358481, voloflogvol=0.499999371311, cor=-0.500000631519, jumpintensity=0.0499999358481, jumpvol=2.99999616372)
+loglikelihood -1849.82823915
+parameters.persistence 0.499999358481
+parameters Parameters(drift=-6.41518915466e-07, persistence=0.499999358481, voloflogvol=0.499999371311, cor=-0.500000641519, jumpintensity=0.0499999458481, jumpvol=2.99999616372)
+iterating through times...
+parameters Parameters(drift=-6.41518915466e-07, persistence=0.499999358481, voloflogvol=0.499999371311, cor=-0.500000641519, jumpintensity=0.0499999458481, jumpvol=2.99999616372)
+loglikelihood -1872.54864834
+parameters.persistence 0.499999358481
+parameters Parameters(drift=-6.41518915466e-07, persistence=0.499999358481, voloflogvol=0.499999371311, cor=-0.500000641519, jumpintensity=0.0499999358481, jumpvol=2.99999617372)
+iterating through times...
+parameters Parameters(drift=-6.41518915466e-07, persistence=0.499999358481, voloflogvol=0.499999371311, cor=-0.500000641519, jumpintensity=0.0499999358481, jumpvol=2.99999617372)
+loglikelihood -1861.39993799
+parameters.persistence 0.499999836759
+parameters Parameters(drift=-1.63240758137e-07, persistence=0.499999836759, voloflogvol=0.499999840024, cor=-0.500000163241, jumpintensity=0.0499999836759, jumpvol=2.99999902382)
+iterating through times...
+parameters Parameters(drift=-1.63240758137e-07, persistence=0.499999836759, voloflogvol=0.499999840024, cor=-0.500000163241, jumpintensity=0.0499999836759, jumpvol=2.99999902382)
+loglikelihood -1856.59060421
+parameters.persistence 0.499999836759
+parameters Parameters(drift=-1.63240758137e-07, persistence=0.499999836759, voloflogvol=0.499999840024, cor=-0.500000163241, jumpintensity=0.0499999836759, jumpvol=2.99999902382)
+iterating through times...
+parameters Parameters(drift=-1.63240758137e-07, persistence=0.499999836759, voloflogvol=0.499999840024, cor=-0.500000163241, jumpintensity=0.0499999836759, jumpvol=2.99999902382)
+loglikelihood -1859.83164118
+parameters.persistence 0.499999836759
+parameters Parameters(drift=-1.53240758137e-07, persistence=0.499999836759, voloflogvol=0.499999840024, cor=-0.500000163241, jumpintensity=0.0499999836759, jumpvol=2.99999902382)
+iterating through times...
+parameters Parameters(drift=-1.53240758137e-07, persistence=0.499999836759, voloflogvol=0.499999840024, cor=-0.500000163241, jumpintensity=0.0499999836759, jumpvol=2.99999902382)
+loglikelihood -1854.42376717
+parameters.persistence 0.499999846759
+parameters Parameters(drift=-1.63240758137e-07, persistence=0.499999846759, voloflogvol=0.499999840024, cor=-0.500000163241, jumpintensity=0.0499999836759, jumpvol=2.99999902382)
+iterating through times...
+parameters Parameters(drift=-1.63240758137e-07, persistence=0.499999846759, voloflogvol=0.499999840024, cor=-0.500000163241, jumpintensity=0.0499999836759, jumpvol=2.99999902382)
+loglikelihood -1851.14895153
+parameters.persistence 0.499999836759
+parameters Parameters(drift=-1.63240758137e-07, persistence=0.499999836759, voloflogvol=0.499999850024, cor=-0.500000163241, jumpintensity=0.0499999836759, jumpvol=2.99999902382)
+iterating through times...
+parameters Parameters(drift=-1.63240758137e-07, persistence=0.499999836759, voloflogvol=0.499999850024, cor=-0.500000163241, jumpintensity=0.0499999836759, jumpvol=2.99999902382)
+loglikelihood -1857.13515596
+parameters.persistence 0.499999836759
+parameters Parameters(drift=-1.63240758137e-07, persistence=0.499999836759, voloflogvol=0.499999840024, cor=-0.500000153241, jumpintensity=0.0499999836759, jumpvol=2.99999902382)
+iterating through times...
+parameters Parameters(drift=-1.63240758137e-07, persistence=0.499999836759, voloflogvol=0.499999840024, cor=-0.500000153241, jumpintensity=0.0499999836759, jumpvol=2.99999902382)
+loglikelihood -1855.07798779
+parameters.persistence 0.499999836759
+parameters Parameters(drift=-1.63240758137e-07, persistence=0.499999836759, voloflogvol=0.499999840024, cor=-0.500000163241, jumpintensity=0.0499999936759, jumpvol=2.99999902382)
+iterating through times...
+parameters Parameters(drift=-1.63240758137e-07, persistence=0.499999836759, voloflogvol=0.499999840024, cor=-0.500000163241, jumpintensity=0.0499999936759, jumpvol=2.99999902382)
+loglikelihood -1850.01332929
+parameters.persistence 0.499999836759
+parameters Parameters(drift=-1.63240758137e-07, persistence=0.499999836759, voloflogvol=0.499999840024, cor=-0.500000163241, jumpintensity=0.0499999836759, jumpvol=2.99999903382)
+iterating through times...
+parameters Parameters(drift=-1.63240758137e-07, persistence=0.499999836759, voloflogvol=0.499999840024, cor=-0.500000163241, jumpintensity=0.0499999836759, jumpvol=2.99999903382)
+loglikelihood -1847.44961286
+parameters.persistence 0.499999927092
+parameters Parameters(drift=-7.29079165702e-08, persistence=0.499999927092, voloflogvol=0.49999992855, cor=-0.500000072908, jumpintensity=0.0499999927092, jumpvol=2.99999956401)
+iterating through times...
+parameters Parameters(drift=-7.29079165702e-08, persistence=0.499999927092, voloflogvol=0.49999992855, cor=-0.500000072908, jumpintensity=0.0499999927092, jumpvol=2.99999956401)
+loglikelihood -1856.84523919
+parameters.persistence 0.499999927092
+parameters Parameters(drift=-7.29079165702e-08, persistence=0.499999927092, voloflogvol=0.49999992855, cor=-0.500000072908, jumpintensity=0.0499999927092, jumpvol=2.99999956401)
+iterating through times...
+parameters Parameters(drift=-7.29079165702e-08, persistence=0.499999927092, voloflogvol=0.49999992855, cor=-0.500000072908, jumpintensity=0.0499999927092, jumpvol=2.99999956401)
+loglikelihood -1859.42385805
+parameters.persistence 0.499999927092
+parameters Parameters(drift=-6.29079165702e-08, persistence=0.499999927092, voloflogvol=0.49999992855, cor=-0.500000072908, jumpintensity=0.0499999927092, jumpvol=2.99999956401)
+iterating through times...
+parameters Parameters(drift=-6.29079165702e-08, persistence=0.499999927092, voloflogvol=0.49999992855, cor=-0.500000072908, jumpintensity=0.0499999927092, jumpvol=2.99999956401)
+loglikelihood -1859.01474165
+parameters.persistence 0.499999937092
+parameters Parameters(drift=-7.29079165702e-08, persistence=0.499999937092, voloflogvol=0.49999992855, cor=-0.500000072908, jumpintensity=0.0499999927092, jumpvol=2.99999956401)
+iterating through times...
+parameters Parameters(drift=-7.29079165702e-08, persistence=0.499999937092, voloflogvol=0.49999992855, cor=-0.500000072908, jumpintensity=0.0499999927092, jumpvol=2.99999956401)
+loglikelihood -1855.89178197
+parameters.persistence 0.499999927092
+parameters Parameters(drift=-7.29079165702e-08, persistence=0.499999927092, voloflogvol=0.49999993855, cor=-0.500000072908, jumpintensity=0.0499999927092, jumpvol=2.99999956401)
+iterating through times...
+parameters Parameters(drift=-7.29079165702e-08, persistence=0.499999927092, voloflogvol=0.49999993855, cor=-0.500000072908, jumpintensity=0.0499999927092, jumpvol=2.99999956401)
+loglikelihood -1843.20425362
+parameters.persistence 0.499999927092
+parameters Parameters(drift=-7.29079165702e-08, persistence=0.499999927092, voloflogvol=0.49999992855, cor=-0.500000062908, jumpintensity=0.0499999927092, jumpvol=2.99999956401)
+iterating through times...
+parameters Parameters(drift=-7.29079165702e-08, persistence=0.499999927092, voloflogvol=0.49999992855, cor=-0.500000062908, jumpintensity=0.0499999927092, jumpvol=2.99999956401)
+loglikelihood -1855.07173499
+parameters.persistence 0.499999927092
+parameters Parameters(drift=-7.29079165702e-08, persistence=0.499999927092, voloflogvol=0.49999992855, cor=-0.500000072908, jumpintensity=0.0500000027092, jumpvol=2.99999956401)
+iterating through times...
+parameters Parameters(drift=-7.29079165702e-08, persistence=0.499999927092, voloflogvol=0.49999992855, cor=-0.500000072908, jumpintensity=0.0500000027092, jumpvol=2.99999956401)
+loglikelihood -1855.24716104
+parameters.persistence 0.499999927092
+parameters Parameters(drift=-7.29079165702e-08, persistence=0.499999927092, voloflogvol=0.49999992855, cor=-0.500000072908, jumpintensity=0.0499999927092, jumpvol=2.99999957401)
+iterating through times...
+parameters Parameters(drift=-7.29079165702e-08, persistence=0.499999927092, voloflogvol=0.49999992855, cor=-0.500000072908, jumpintensity=0.0499999927092, jumpvol=2.99999957401)
+loglikelihood -1848.58306183
+parameters.persistence 0.499999968204
+parameters Parameters(drift=-3.17964398766e-08, persistence=0.499999968204, voloflogvol=0.499999968839, cor=-0.500000031796, jumpintensity=0.0499999968204, jumpvol=2.99999980986)
+iterating through times...
+parameters Parameters(drift=-3.17964398766e-08, persistence=0.499999968204, voloflogvol=0.499999968839, cor=-0.500000031796, jumpintensity=0.0499999968204, jumpvol=2.99999980986)
+loglikelihood -1854.55241373
+parameters.persistence 0.499999968204
+parameters Parameters(drift=-3.17964398766e-08, persistence=0.499999968204, voloflogvol=0.499999968839, cor=-0.500000031796, jumpintensity=0.0499999968204, jumpvol=2.99999980986)
+iterating through times...
+parameters Parameters(drift=-3.17964398766e-08, persistence=0.499999968204, voloflogvol=0.499999968839, cor=-0.500000031796, jumpintensity=0.0499999968204, jumpvol=2.99999980986)
+loglikelihood -1853.67969165
+parameters.persistence 0.499999968204
+parameters Parameters(drift=-2.17964398766e-08, persistence=0.499999968204, voloflogvol=0.499999968839, cor=-0.500000031796, jumpintensity=0.0499999968204, jumpvol=2.99999980986)
+iterating through times...
+parameters Parameters(drift=-2.17964398766e-08, persistence=0.499999968204, voloflogvol=0.499999968839, cor=-0.500000031796, jumpintensity=0.0499999968204, jumpvol=2.99999980986)
+loglikelihood -1853.45755673
+parameters.persistence 0.499999978204
+parameters Parameters(drift=-3.17964398766e-08, persistence=0.499999978204, voloflogvol=0.499999968839, cor=-0.500000031796, jumpintensity=0.0499999968204, jumpvol=2.99999980986)
+iterating through times...
+parameters Parameters(drift=-3.17964398766e-08, persistence=0.499999978204, voloflogvol=0.499999968839, cor=-0.500000031796, jumpintensity=0.0499999968204, jumpvol=2.99999980986)
+loglikelihood -1855.37195055
+parameters.persistence 0.499999968204
+parameters Parameters(drift=-3.17964398766e-08, persistence=0.499999968204, voloflogvol=0.499999978839, cor=-0.500000031796, jumpintensity=0.0499999968204, jumpvol=2.99999980986)
+iterating through times...
+parameters Parameters(drift=-3.17964398766e-08, persistence=0.499999968204, voloflogvol=0.499999978839, cor=-0.500000031796, jumpintensity=0.0499999968204, jumpvol=2.99999980986)
+loglikelihood -1859.15668351
+parameters.persistence 0.499999968204
+parameters Parameters(drift=-3.17964398766e-08, persistence=0.499999968204, voloflogvol=0.499999968839, cor=-0.500000021796, jumpintensity=0.0499999968204, jumpvol=2.99999980986)
+iterating through times...
+parameters Parameters(drift=-3.17964398766e-08, persistence=0.499999968204, voloflogvol=0.499999968839, cor=-0.500000021796, jumpintensity=0.0499999968204, jumpvol=2.99999980986)
+loglikelihood -1839.59219343
+parameters.persistence 0.499999968204
+parameters Parameters(drift=-3.17964398766e-08, persistence=0.499999968204, voloflogvol=0.499999968839, cor=-0.500000031796, jumpintensity=0.0500000068204, jumpvol=2.99999980986)
+iterating through times...
+parameters Parameters(drift=-3.17964398766e-08, persistence=0.499999968204, voloflogvol=0.499999968839, cor=-0.500000031796, jumpintensity=0.0500000068204, jumpvol=2.99999980986)
+loglikelihood -1857.96297442
+parameters.persistence 0.499999968204
+parameters Parameters(drift=-3.17964398766e-08, persistence=0.499999968204, voloflogvol=0.499999968839, cor=-0.500000031796, jumpintensity=0.0499999968204, jumpvol=2.99999981986)
+iterating through times...
+parameters Parameters(drift=-3.17964398766e-08, persistence=0.499999968204, voloflogvol=0.499999968839, cor=-0.500000031796, jumpintensity=0.0499999968204, jumpvol=2.99999981986)
+loglikelihood -1858.62483112
+parameters.persistence 0.499999990304
+parameters Parameters(drift=-9.69592477841e-09, persistence=0.499999990304, voloflogvol=0.499999990498, cor=-0.500000009696, jumpintensity=0.0499999990304, jumpvol=2.99999994202)
+iterating through times...
+parameters Parameters(drift=-9.69592477841e-09, persistence=0.499999990304, voloflogvol=0.499999990498, cor=-0.500000009696, jumpintensity=0.0499999990304, jumpvol=2.99999994202)
+loglikelihood -1859.59940196
+parameters.persistence 0.499999990304
+parameters Parameters(drift=-9.69592477841e-09, persistence=0.499999990304, voloflogvol=0.499999990498, cor=-0.500000009696, jumpintensity=0.0499999990304, jumpvol=2.99999994202)
+iterating through times...
+parameters Parameters(drift=-9.69592477841e-09, persistence=0.499999990304, voloflogvol=0.499999990498, cor=-0.500000009696, jumpintensity=0.0499999990304, jumpvol=2.99999994202)
+loglikelihood -1855.08987746
+parameters.persistence 0.499999990304
+parameters Parameters(drift=3.04075221595e-10, persistence=0.499999990304, voloflogvol=0.499999990498, cor=-0.500000009696, jumpintensity=0.0499999990304, jumpvol=2.99999994202)
+iterating through times...
+parameters Parameters(drift=3.04075221595e-10, persistence=0.499999990304, voloflogvol=0.499999990498, cor=-0.500000009696, jumpintensity=0.0499999990304, jumpvol=2.99999994202)
+loglikelihood -1845.98936877
+parameters.persistence 0.500000000304
+parameters Parameters(drift=-9.69592477841e-09, persistence=0.500000000304, voloflogvol=0.499999990498, cor=-0.500000009696, jumpintensity=0.0499999990304, jumpvol=2.99999994202)
+iterating through times...
+parameters Parameters(drift=-9.69592477841e-09, persistence=0.500000000304, voloflogvol=0.499999990498, cor=-0.500000009696, jumpintensity=0.0499999990304, jumpvol=2.99999994202)
+loglikelihood -1848.32916055
+parameters.persistence 0.499999990304
+parameters Parameters(drift=-9.69592477841e-09, persistence=0.499999990304, voloflogvol=0.500000000498, cor=-0.500000009696, jumpintensity=0.0499999990304, jumpvol=2.99999994202)
+iterating through times...
+parameters Parameters(drift=-9.69592477841e-09, persistence=0.499999990304, voloflogvol=0.500000000498, cor=-0.500000009696, jumpintensity=0.0499999990304, jumpvol=2.99999994202)
+loglikelihood -1864.36272708
+parameters.persistence 0.499999990304
+parameters Parameters(drift=-9.69592477841e-09, persistence=0.499999990304, voloflogvol=0.499999990498, cor=-0.499999999696, jumpintensity=0.0499999990304, jumpvol=2.99999994202)
+iterating through times...
+parameters Parameters(drift=-9.69592477841e-09, persistence=0.499999990304, voloflogvol=0.499999990498, cor=-0.499999999696, jumpintensity=0.0499999990304, jumpvol=2.99999994202)
+loglikelihood -1849.79633174
+parameters.persistence 0.499999990304
+parameters Parameters(drift=-9.69592477841e-09, persistence=0.499999990304, voloflogvol=0.499999990498, cor=-0.500000009696, jumpintensity=0.0500000090304, jumpvol=2.99999994202)
+iterating through times...
+parameters Parameters(drift=-9.69592477841e-09, persistence=0.499999990304, voloflogvol=0.499999990498, cor=-0.500000009696, jumpintensity=0.0500000090304, jumpvol=2.99999994202)
+loglikelihood -1864.18296924
+parameters.persistence 0.499999990304
+parameters Parameters(drift=-9.69592477841e-09, persistence=0.499999990304, voloflogvol=0.499999990498, cor=-0.500000009696, jumpintensity=0.0499999990304, jumpvol=2.99999995202)
+iterating through times...
+parameters Parameters(drift=-9.69592477841e-09, persistence=0.499999990304, voloflogvol=0.499999990498, cor=-0.500000009696, jumpintensity=0.0499999990304, jumpvol=2.99999995202)
+loglikelihood -1851.51846623
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21653538717e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996783, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21653538717e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996783, jumpvol=2.99999998077)
+loglikelihood -1841.61825322
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21653538717e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996783, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21653538717e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996783, jumpvol=2.99999998077)
+loglikelihood -1850.84423204
+parameters.persistence 0.499999996783
+parameters Parameters(drift=6.78346461283e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996783, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=6.78346461283e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996783, jumpvol=2.99999998077)
+loglikelihood -1855.49786406
+parameters.persistence 0.500000006783
+parameters Parameters(drift=-3.21653538717e-09, persistence=0.500000006783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996783, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21653538717e-09, persistence=0.500000006783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996783, jumpvol=2.99999998077)
+loglikelihood -1847.32411031
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21653538717e-09, persistence=0.499999996783, voloflogvol=0.500000006848, cor=-0.500000003217, jumpintensity=0.0499999996783, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21653538717e-09, persistence=0.499999996783, voloflogvol=0.500000006848, cor=-0.500000003217, jumpintensity=0.0499999996783, jumpvol=2.99999998077)
+loglikelihood -1852.18901146
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21653538717e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.499999993217, jumpintensity=0.0499999996783, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21653538717e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.499999993217, jumpintensity=0.0499999996783, jumpvol=2.99999998077)
+loglikelihood -1858.79765633
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21653538717e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0500000096783, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21653538717e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0500000096783, jumpvol=2.99999998077)
+loglikelihood -1846.65001355
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21653538717e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996783, jumpvol=2.99999999077)
+iterating through times...
+parameters Parameters(drift=-3.21653538717e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996783, jumpvol=2.99999999077)
+loglikelihood -1845.54438074
+
+At iterate    2    f=  1.84162E+03    |proj g|=  7.00000E+00
+parameters.persistence 0.499999997736
+parameters Parameters(drift=-5.5769736038e-09, persistence=0.499999997736, voloflogvol=0.499999996163, cor=-0.500000006715, jumpintensity=0.0500000009381, jumpvol=2.99999998468)
+iterating through times...
+parameters Parameters(drift=-5.5769736038e-09, persistence=0.499999997736, voloflogvol=0.499999996163, cor=-0.500000006715, jumpintensity=0.0500000009381, jumpvol=2.99999998468)
+loglikelihood -1843.21397288
+parameters.persistence 0.499999997736
+parameters Parameters(drift=-5.5769736038e-09, persistence=0.499999997736, voloflogvol=0.499999996163, cor=-0.500000006715, jumpintensity=0.0500000009381, jumpvol=2.99999998468)
+iterating through times...
+parameters Parameters(drift=-5.5769736038e-09, persistence=0.499999997736, voloflogvol=0.499999996163, cor=-0.500000006715, jumpintensity=0.0500000009381, jumpvol=2.99999998468)
+loglikelihood -1864.41025246
+parameters.persistence 0.499999997736
+parameters Parameters(drift=4.4230263962e-09, persistence=0.499999997736, voloflogvol=0.499999996163, cor=-0.500000006715, jumpintensity=0.0500000009381, jumpvol=2.99999998468)
+iterating through times...
+parameters Parameters(drift=4.4230263962e-09, persistence=0.499999997736, voloflogvol=0.499999996163, cor=-0.500000006715, jumpintensity=0.0500000009381, jumpvol=2.99999998468)
+loglikelihood -1856.20122434
+parameters.persistence 0.500000007736
+parameters Parameters(drift=-5.5769736038e-09, persistence=0.500000007736, voloflogvol=0.499999996163, cor=-0.500000006715, jumpintensity=0.0500000009381, jumpvol=2.99999998468)
+iterating through times...
+parameters Parameters(drift=-5.5769736038e-09, persistence=0.500000007736, voloflogvol=0.499999996163, cor=-0.500000006715, jumpintensity=0.0500000009381, jumpvol=2.99999998468)
+loglikelihood -1850.3648734
+parameters.persistence 0.499999997736
+parameters Parameters(drift=-5.5769736038e-09, persistence=0.499999997736, voloflogvol=0.500000006163, cor=-0.500000006715, jumpintensity=0.0500000009381, jumpvol=2.99999998468)
+iterating through times...
+parameters Parameters(drift=-5.5769736038e-09, persistence=0.499999997736, voloflogvol=0.500000006163, cor=-0.500000006715, jumpintensity=0.0500000009381, jumpvol=2.99999998468)
+loglikelihood -1853.97796165
+parameters.persistence 0.499999997736
+parameters Parameters(drift=-5.5769736038e-09, persistence=0.499999997736, voloflogvol=0.499999996163, cor=-0.499999996715, jumpintensity=0.0500000009381, jumpvol=2.99999998468)
+iterating through times...
+parameters Parameters(drift=-5.5769736038e-09, persistence=0.499999997736, voloflogvol=0.499999996163, cor=-0.499999996715, jumpintensity=0.0500000009381, jumpvol=2.99999998468)
+loglikelihood -1849.21390391
+parameters.persistence 0.499999997736
+parameters Parameters(drift=-5.5769736038e-09, persistence=0.499999997736, voloflogvol=0.499999996163, cor=-0.500000006715, jumpintensity=0.0500000109381, jumpvol=2.99999998468)
+iterating through times...
+parameters Parameters(drift=-5.5769736038e-09, persistence=0.499999997736, voloflogvol=0.499999996163, cor=-0.500000006715, jumpintensity=0.0500000109381, jumpvol=2.99999998468)
+loglikelihood -1856.8541369
+parameters.persistence 0.499999997736
+parameters Parameters(drift=-5.5769736038e-09, persistence=0.499999997736, voloflogvol=0.499999996163, cor=-0.500000006715, jumpintensity=0.0500000009381, jumpvol=2.99999999468)
+iterating through times...
+parameters Parameters(drift=-5.5769736038e-09, persistence=0.499999997736, voloflogvol=0.499999996163, cor=-0.500000006715, jumpintensity=0.0500000009381, jumpvol=2.99999999468)
+loglikelihood -1854.01746791
+parameters.persistence 0.499999997022
+parameters Parameters(drift=-3.80712808524e-09, persistence=0.499999997022, voloflogvol=0.499999996676, cor=-0.500000004092, jumpintensity=0.0499999999936, jumpvol=2.99999998174)
+iterating through times...
+parameters Parameters(drift=-3.80712808524e-09, persistence=0.499999997022, voloflogvol=0.499999996676, cor=-0.500000004092, jumpintensity=0.0499999999936, jumpvol=2.99999998174)
+loglikelihood -1849.63276844
+parameters.persistence 0.499999997022
+parameters Parameters(drift=-3.80712808524e-09, persistence=0.499999997022, voloflogvol=0.499999996676, cor=-0.500000004092, jumpintensity=0.0499999999936, jumpvol=2.99999998174)
+iterating through times...
+parameters Parameters(drift=-3.80712808524e-09, persistence=0.499999997022, voloflogvol=0.499999996676, cor=-0.500000004092, jumpintensity=0.0499999999936, jumpvol=2.99999998174)
+loglikelihood -1854.81842332
+parameters.persistence 0.499999997022
+parameters Parameters(drift=6.19287191476e-09, persistence=0.499999997022, voloflogvol=0.499999996676, cor=-0.500000004092, jumpintensity=0.0499999999936, jumpvol=2.99999998174)
+iterating through times...
+parameters Parameters(drift=6.19287191476e-09, persistence=0.499999997022, voloflogvol=0.499999996676, cor=-0.500000004092, jumpintensity=0.0499999999936, jumpvol=2.99999998174)
+loglikelihood -1852.89997169
+parameters.persistence 0.500000007022
+parameters Parameters(drift=-3.80712808524e-09, persistence=0.500000007022, voloflogvol=0.499999996676, cor=-0.500000004092, jumpintensity=0.0499999999936, jumpvol=2.99999998174)
+iterating through times...
+parameters Parameters(drift=-3.80712808524e-09, persistence=0.500000007022, voloflogvol=0.499999996676, cor=-0.500000004092, jumpintensity=0.0499999999936, jumpvol=2.99999998174)
+loglikelihood -1855.49867415
+parameters.persistence 0.499999997022
+parameters Parameters(drift=-3.80712808524e-09, persistence=0.499999997022, voloflogvol=0.500000006676, cor=-0.500000004092, jumpintensity=0.0499999999936, jumpvol=2.99999998174)
+iterating through times...
+parameters Parameters(drift=-3.80712808524e-09, persistence=0.499999997022, voloflogvol=0.500000006676, cor=-0.500000004092, jumpintensity=0.0499999999936, jumpvol=2.99999998174)
+loglikelihood -1859.36018467
+parameters.persistence 0.499999997022
+parameters Parameters(drift=-3.80712808524e-09, persistence=0.499999997022, voloflogvol=0.499999996676, cor=-0.499999994092, jumpintensity=0.0499999999936, jumpvol=2.99999998174)
+iterating through times...
+parameters Parameters(drift=-3.80712808524e-09, persistence=0.499999997022, voloflogvol=0.499999996676, cor=-0.499999994092, jumpintensity=0.0499999999936, jumpvol=2.99999998174)
+loglikelihood -1852.8074595
+parameters.persistence 0.499999997022
+parameters Parameters(drift=-3.80712808524e-09, persistence=0.499999997022, voloflogvol=0.499999996676, cor=-0.500000004092, jumpintensity=0.0500000099936, jumpvol=2.99999998174)
+iterating through times...
+parameters Parameters(drift=-3.80712808524e-09, persistence=0.499999997022, voloflogvol=0.499999996676, cor=-0.500000004092, jumpintensity=0.0500000099936, jumpvol=2.99999998174)
+loglikelihood -1836.72845731
+parameters.persistence 0.499999997022
+parameters Parameters(drift=-3.80712808524e-09, persistence=0.499999997022, voloflogvol=0.499999996676, cor=-0.500000004092, jumpintensity=0.0499999999936, jumpvol=2.99999999174)
+iterating through times...
+parameters Parameters(drift=-3.80712808524e-09, persistence=0.499999997022, voloflogvol=0.499999996676, cor=-0.500000004092, jumpintensity=0.0499999999936, jumpvol=2.99999999174)
+loglikelihood -1856.09044593
+parameters.persistence 0.499999996791
+parameters Parameters(drift=-3.23555039001e-09, persistence=0.499999996791, voloflogvol=0.499999996842, cor=-0.500000003245, jumpintensity=0.0499999996885, jumpvol=2.9999999808)
+iterating through times...
+parameters Parameters(drift=-3.23555039001e-09, persistence=0.499999996791, voloflogvol=0.499999996842, cor=-0.500000003245, jumpintensity=0.0499999996885, jumpvol=2.9999999808)
+loglikelihood -1846.46588544
+parameters.persistence 0.499999996791
+parameters Parameters(drift=-3.23555039001e-09, persistence=0.499999996791, voloflogvol=0.499999996842, cor=-0.500000003245, jumpintensity=0.0499999996885, jumpvol=2.9999999808)
+iterating through times...
+parameters Parameters(drift=-3.23555039001e-09, persistence=0.499999996791, voloflogvol=0.499999996842, cor=-0.500000003245, jumpintensity=0.0499999996885, jumpvol=2.9999999808)
+loglikelihood -1856.81138485
+parameters.persistence 0.499999996791
+parameters Parameters(drift=6.76444960999e-09, persistence=0.499999996791, voloflogvol=0.499999996842, cor=-0.500000003245, jumpintensity=0.0499999996885, jumpvol=2.9999999808)
+iterating through times...
+parameters Parameters(drift=6.76444960999e-09, persistence=0.499999996791, voloflogvol=0.499999996842, cor=-0.500000003245, jumpintensity=0.0499999996885, jumpvol=2.9999999808)
+loglikelihood -1850.3519582
+parameters.persistence 0.500000006791
+parameters Parameters(drift=-3.23555039001e-09, persistence=0.500000006791, voloflogvol=0.499999996842, cor=-0.500000003245, jumpintensity=0.0499999996885, jumpvol=2.9999999808)
+iterating through times...
+parameters Parameters(drift=-3.23555039001e-09, persistence=0.500000006791, voloflogvol=0.499999996842, cor=-0.500000003245, jumpintensity=0.0499999996885, jumpvol=2.9999999808)
+loglikelihood -1847.40682571
+parameters.persistence 0.499999996791
+parameters Parameters(drift=-3.23555039001e-09, persistence=0.499999996791, voloflogvol=0.500000006842, cor=-0.500000003245, jumpintensity=0.0499999996885, jumpvol=2.9999999808)
+iterating through times...
+parameters Parameters(drift=-3.23555039001e-09, persistence=0.499999996791, voloflogvol=0.500000006842, cor=-0.500000003245, jumpintensity=0.0499999996885, jumpvol=2.9999999808)
+loglikelihood -1841.95309422
+parameters.persistence 0.499999996791
+parameters Parameters(drift=-3.23555039001e-09, persistence=0.499999996791, voloflogvol=0.499999996842, cor=-0.499999993245, jumpintensity=0.0499999996885, jumpvol=2.9999999808)
+iterating through times...
+parameters Parameters(drift=-3.23555039001e-09, persistence=0.499999996791, voloflogvol=0.499999996842, cor=-0.499999993245, jumpintensity=0.0499999996885, jumpvol=2.9999999808)
+loglikelihood -1855.75330785
+parameters.persistence 0.499999996791
+parameters Parameters(drift=-3.23555039001e-09, persistence=0.499999996791, voloflogvol=0.499999996842, cor=-0.500000003245, jumpintensity=0.0500000096885, jumpvol=2.9999999808)
+iterating through times...
+parameters Parameters(drift=-3.23555039001e-09, persistence=0.499999996791, voloflogvol=0.499999996842, cor=-0.500000003245, jumpintensity=0.0500000096885, jumpvol=2.9999999808)
+loglikelihood -1859.00160919
+parameters.persistence 0.499999996791
+parameters Parameters(drift=-3.23555039001e-09, persistence=0.499999996791, voloflogvol=0.499999996842, cor=-0.500000003245, jumpintensity=0.0499999996885, jumpvol=2.9999999908)
+iterating through times...
+parameters Parameters(drift=-3.23555039001e-09, persistence=0.499999996791, voloflogvol=0.499999996842, cor=-0.500000003245, jumpintensity=0.0499999996885, jumpvol=2.9999999908)
+loglikelihood -1850.5625611
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1837.74729419
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1849.82165583
+parameters.persistence 0.499999996783
+parameters Parameters(drift=6.78342842968e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=6.78342842968e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1853.43038666
+parameters.persistence 0.500000006783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.500000006783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.500000006783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1857.78845292
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.500000006848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.500000006848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1851.45099333
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.499999993217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.499999993217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1852.80743688
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0500000096784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0500000096784, jumpvol=2.99999998077)
+loglikelihood -1858.71597244
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999999077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999999077)
+loglikelihood -1848.30834704
+
+At iterate    3    f=  1.83775E+03    |proj g|=  7.00000E+00
+parameters.persistence 0.499999996667
+parameters Parameters(drift=-3.67595794786e-09, persistence=0.499999996667, voloflogvol=0.499999996566, cor=-0.500000003794, jumpintensity=0.049999999787, jumpvol=2.99999997988)
+iterating through times...
+parameters Parameters(drift=-3.67595794786e-09, persistence=0.499999996667, voloflogvol=0.499999996566, cor=-0.500000003794, jumpintensity=0.049999999787, jumpvol=2.99999997988)
+loglikelihood -1853.27478228
+parameters.persistence 0.499999996667
+parameters Parameters(drift=-3.67595794786e-09, persistence=0.499999996667, voloflogvol=0.499999996566, cor=-0.500000003794, jumpintensity=0.049999999787, jumpvol=2.99999997988)
+iterating through times...
+parameters Parameters(drift=-3.67595794786e-09, persistence=0.499999996667, voloflogvol=0.499999996566, cor=-0.500000003794, jumpintensity=0.049999999787, jumpvol=2.99999997988)
+loglikelihood -1851.97251629
+parameters.persistence 0.499999996667
+parameters Parameters(drift=6.32404205214e-09, persistence=0.499999996667, voloflogvol=0.499999996566, cor=-0.500000003794, jumpintensity=0.049999999787, jumpvol=2.99999997988)
+iterating through times...
+parameters Parameters(drift=6.32404205214e-09, persistence=0.499999996667, voloflogvol=0.499999996566, cor=-0.500000003794, jumpintensity=0.049999999787, jumpvol=2.99999997988)
+loglikelihood -1853.76586974
+parameters.persistence 0.500000006667
+parameters Parameters(drift=-3.67595794786e-09, persistence=0.500000006667, voloflogvol=0.499999996566, cor=-0.500000003794, jumpintensity=0.049999999787, jumpvol=2.99999997988)
+iterating through times...
+parameters Parameters(drift=-3.67595794786e-09, persistence=0.500000006667, voloflogvol=0.499999996566, cor=-0.500000003794, jumpintensity=0.049999999787, jumpvol=2.99999997988)
+loglikelihood -1857.61008763
+parameters.persistence 0.499999996667
+parameters Parameters(drift=-3.67595794786e-09, persistence=0.499999996667, voloflogvol=0.500000006566, cor=-0.500000003794, jumpintensity=0.049999999787, jumpvol=2.99999997988)
+iterating through times...
+parameters Parameters(drift=-3.67595794786e-09, persistence=0.499999996667, voloflogvol=0.500000006566, cor=-0.500000003794, jumpintensity=0.049999999787, jumpvol=2.99999997988)
+loglikelihood -1861.64571634
+parameters.persistence 0.499999996667
+parameters Parameters(drift=-3.67595794786e-09, persistence=0.499999996667, voloflogvol=0.499999996566, cor=-0.499999993794, jumpintensity=0.049999999787, jumpvol=2.99999997988)
+iterating through times...
+parameters Parameters(drift=-3.67595794786e-09, persistence=0.499999996667, voloflogvol=0.499999996566, cor=-0.499999993794, jumpintensity=0.049999999787, jumpvol=2.99999997988)
+loglikelihood -1854.39188671
+parameters.persistence 0.499999996667
+parameters Parameters(drift=-3.67595794786e-09, persistence=0.499999996667, voloflogvol=0.499999996566, cor=-0.500000003794, jumpintensity=0.050000009787, jumpvol=2.99999997988)
+iterating through times...
+parameters Parameters(drift=-3.67595794786e-09, persistence=0.499999996667, voloflogvol=0.499999996566, cor=-0.500000003794, jumpintensity=0.050000009787, jumpvol=2.99999997988)
+loglikelihood -1843.80172257
+parameters.persistence 0.499999996667
+parameters Parameters(drift=-3.67595794786e-09, persistence=0.499999996667, voloflogvol=0.499999996566, cor=-0.500000003794, jumpintensity=0.049999999787, jumpvol=2.99999998988)
+iterating through times...
+parameters Parameters(drift=-3.67595794786e-09, persistence=0.499999996667, voloflogvol=0.499999996566, cor=-0.500000003794, jumpintensity=0.049999999787, jumpvol=2.99999998988)
+loglikelihood -1849.19547778
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21776863538e-09, persistence=0.499999996783, voloflogvol=0.499999996847, cor=-0.500000003218, jumpintensity=0.0499999996786, jumpvol=2.99999998076)
+iterating through times...
+parameters Parameters(drift=-3.21776863538e-09, persistence=0.499999996783, voloflogvol=0.499999996847, cor=-0.500000003218, jumpintensity=0.0499999996786, jumpvol=2.99999998076)
+loglikelihood -1851.95613019
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21776863538e-09, persistence=0.499999996783, voloflogvol=0.499999996847, cor=-0.500000003218, jumpintensity=0.0499999996786, jumpvol=2.99999998076)
+iterating through times...
+parameters Parameters(drift=-3.21776863538e-09, persistence=0.499999996783, voloflogvol=0.499999996847, cor=-0.500000003218, jumpintensity=0.0499999996786, jumpvol=2.99999998076)
+loglikelihood -1849.90087827
+parameters.persistence 0.499999996783
+parameters Parameters(drift=6.78223136462e-09, persistence=0.499999996783, voloflogvol=0.499999996847, cor=-0.500000003218, jumpintensity=0.0499999996786, jumpvol=2.99999998076)
+iterating through times...
+parameters Parameters(drift=6.78223136462e-09, persistence=0.499999996783, voloflogvol=0.499999996847, cor=-0.500000003218, jumpintensity=0.0499999996786, jumpvol=2.99999998076)
+loglikelihood -1854.47101797
+parameters.persistence 0.500000006783
+parameters Parameters(drift=-3.21776863538e-09, persistence=0.500000006783, voloflogvol=0.499999996847, cor=-0.500000003218, jumpintensity=0.0499999996786, jumpvol=2.99999998076)
+iterating through times...
+parameters Parameters(drift=-3.21776863538e-09, persistence=0.500000006783, voloflogvol=0.499999996847, cor=-0.500000003218, jumpintensity=0.0499999996786, jumpvol=2.99999998076)
+loglikelihood -1859.28786734
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21776863538e-09, persistence=0.499999996783, voloflogvol=0.500000006847, cor=-0.500000003218, jumpintensity=0.0499999996786, jumpvol=2.99999998076)
+iterating through times...
+parameters Parameters(drift=-3.21776863538e-09, persistence=0.499999996783, voloflogvol=0.500000006847, cor=-0.500000003218, jumpintensity=0.0499999996786, jumpvol=2.99999998076)
+loglikelihood -1856.40496362
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21776863538e-09, persistence=0.499999996783, voloflogvol=0.499999996847, cor=-0.499999993218, jumpintensity=0.0499999996786, jumpvol=2.99999998076)
+iterating through times...
+parameters Parameters(drift=-3.21776863538e-09, persistence=0.499999996783, voloflogvol=0.499999996847, cor=-0.499999993218, jumpintensity=0.0499999996786, jumpvol=2.99999998076)
+loglikelihood -1856.45588262
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21776863538e-09, persistence=0.499999996783, voloflogvol=0.499999996847, cor=-0.500000003218, jumpintensity=0.0500000096786, jumpvol=2.99999998076)
+iterating through times...
+parameters Parameters(drift=-3.21776863538e-09, persistence=0.499999996783, voloflogvol=0.499999996847, cor=-0.500000003218, jumpintensity=0.0500000096786, jumpvol=2.99999998076)
+loglikelihood -1852.70904291
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21776863538e-09, persistence=0.499999996783, voloflogvol=0.499999996847, cor=-0.500000003218, jumpintensity=0.0499999996786, jumpvol=2.99999999076)
+iterating through times...
+parameters Parameters(drift=-3.21776863538e-09, persistence=0.499999996783, voloflogvol=0.499999996847, cor=-0.500000003218, jumpintensity=0.0499999996786, jumpvol=2.99999999076)
+loglikelihood -1855.82664606
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157934e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157934e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1852.43697225
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157934e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157934e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1850.81901263
+parameters.persistence 0.499999996783
+parameters Parameters(drift=6.78342842066e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=6.78342842066e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1851.60522914
+parameters.persistence 0.500000006783
+parameters Parameters(drift=-3.21657157934e-09, persistence=0.500000006783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157934e-09, persistence=0.500000006783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1856.47989256
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157934e-09, persistence=0.499999996783, voloflogvol=0.500000006848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157934e-09, persistence=0.499999996783, voloflogvol=0.500000006848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1839.18826496
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157934e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.499999993217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157934e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.499999993217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1856.27725315
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157934e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0500000096784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157934e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0500000096784, jumpvol=2.99999998077)
+loglikelihood -1863.2845883
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157934e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999999077)
+iterating through times...
+parameters Parameters(drift=-3.21657157934e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999999077)
+loglikelihood -1846.46591212
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1858.80839355
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1851.49569989
+parameters.persistence 0.499999996783
+parameters Parameters(drift=6.78342842968e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=6.78342842968e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1852.49628739
+parameters.persistence 0.500000006783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.500000006783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.500000006783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1856.1687951
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.500000006848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.500000006848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1854.31898986
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.499999993217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.499999993217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1853.83375037
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0500000096784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0500000096784, jumpvol=2.99999998077)
+loglikelihood -1860.84251455
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999999077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999999077)
+loglikelihood -1855.58247088
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1857.86669622
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1851.3377727
+parameters.persistence 0.499999996783
+parameters Parameters(drift=6.78342842968e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=6.78342842968e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1864.94970563
+parameters.persistence 0.500000006783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.500000006783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.500000006783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1841.64148685
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.500000006848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.500000006848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1857.98146451
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.499999993217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.499999993217, jumpintensity=0.0499999996784, jumpvol=2.99999998077)
+loglikelihood -1854.09461502
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0500000096784, jumpvol=2.99999998077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0500000096784, jumpvol=2.99999998077)
+loglikelihood -1851.43876016
+parameters.persistence 0.499999996783
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999999077)
+iterating through times...
+parameters Parameters(drift=-3.21657157032e-09, persistence=0.499999996783, voloflogvol=0.499999996848, cor=-0.500000003217, jumpintensity=0.0499999996784, jumpvol=2.99999999077)
+loglikelihood -1867.70064386
+
+At iterate    4    f=  1.85787E+03    |proj g|=  2.99000E+00
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    6      4     30     14     1     0   2.990E+00   1.858E+03
+  F =  1857.8667
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Cauchy                time 3.125E-02 seconds.
+ Subspace minimization time 0.000E+00 seconds.
+ Line search           time 1.110E+03 seconds.
+
+ Total User time 1.146E+03 seconds.
+
+  status: 0
+ success: True
+    nfev: 30
+     fun: 1857.8666962186819
+       x: array([ -3.21657157e-09,   4.99999997e-01,   4.99999997e-01,
+        -5.00000003e-01,   4.99999997e-02,   2.99999998e+00])
+ message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+     jac: array([  1.36119329e+09,  -9.69628584e+08,   6.64369182e+08,
+         2.75684232e+08,   1.00987465e+07,   1.63628712e+09])
+     nit: 4
+[ -3.21657157e-09   4.99999997e-01   4.99999997e-01  -5.00000003e-01
+   4.99999997e-02   2.99999998e+00]

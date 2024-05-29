@@ -1,0 +1,48 @@
+model {
+    # Priors
+    mu ~ dnorm(0, 0.1)
+    beta <- exp(mu/2)
+    phistar ~ dbeta(20, 1.5)
+    phi <- 2*phistar - 1
+    recsigmav2 ~ dgamma(2.5, 0.025)
+    sigmav <- sqrt(1/recsigmav2)
+    rho ~ dunif(-1, 1)
+
+    for (t in 1:n) {
+        qtemp[t] ~ dbin(.5, 1)
+        q[t] <- qtemp[t] * 2 - 1
+    }
+
+    # TODO Different prior
+    # c ~ dnorm(0, 1)I(0, 1000)
+    # c ~ dnorm(0.25, 1)I(0, 1000)
+    # c ~ dnorm(0, 2500)I(0, 1000)
+    c ~ dnorm(1, 1)I(0, 1000)
+
+    # Initial distribution of the state
+    x0 ~ dnorm(mu, recsigmav2)
+    xmean[1] <- mu + phi*(x0-mu)
+    x[1] ~ dnorm(xmean[1], recsigmav2)I(-5,5)
+
+    # Transition density
+    for (t in 2:n) {
+        xmean[t] <- mu + phi*(x[t-1]-mu)
+        x[t] ~ dnorm(xmean[t], recsigmav2)I(-4,4)
+    }
+
+    # Likelihood
+    qdiff[1] <- q[1] - 1
+    ymean[1] <- c * qdiff[1] + rho/sigmav * exp(0.5*x[1]) * (x[1] - mu - phi*(x0-mu))
+    recyvar[1] <- 1 / ( exp(x[1]) * (1-rho*rho) )
+    y[1] ~ dnorm(ymean[1], recyvar[1])
+    for (t in 2:n) {
+        qdiff[t] <- q[t] - q[t-1]
+        ymean[t] <- c * qdiff[t] + rho/sigmav * exp(0.5*x[t]) * (x[t] - mu - phi*(x[t-1]-mu))
+        recyvar[t] <- 1/( exp(x[t]) * (1-rho*rho) )
+        y[t] ~ dnorm(ymean[t], recyvar[t])
+    }
+}
+
+# list(mu=0, phistar=0.975, recsigmav2=50, rho=0, c=0.5)
+# list(mu=0, phistar=0.975, recsigmav2=50, rho=0, c=0.01)
+list(mu=0, phistar=0.975, recsigmav2=50, rho=0, c=0.0001)

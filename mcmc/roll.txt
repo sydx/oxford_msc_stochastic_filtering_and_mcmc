@@ -1,0 +1,24 @@
+model {
+    # Priors
+    for (t in 1:n) {
+        qtemp[t] ~ dbin(.5, 1)
+        q[t] <- qtemp[t] * 2 - 1
+    }
+    recsigma2 ~ dgamma(3, 0.75)
+    sigma <- sqrt(1/recsigma2)
+
+    # TODO Different prior
+    c ~ dnorm(0, 1)I(0, 1000)
+
+    # Likelihood
+    qdiff[1] <- q[1] - q[1]
+    ymean[1] <- c * qdiff[1]
+    y[1] ~ dnorm(ymean[1], recsigma2)
+    for (t in 2:n) {
+        qdiff[t] <- q[t] - q[t-1]
+        ymean[t] <- c * qdiff[t]
+        y[t] ~ dnorm(ymean[t], recsigma2)
+    }
+}
+
+list(c=0.5, recsigma2=16)

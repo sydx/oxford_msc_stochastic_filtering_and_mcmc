@@ -1,0 +1,1 @@
+list(mu=0, phistar=0.98, recsigmav2=40, rho=-0.4)
